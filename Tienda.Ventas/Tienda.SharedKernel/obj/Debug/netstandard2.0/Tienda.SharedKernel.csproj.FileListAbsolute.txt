@@ -1,0 +1,3 @@
+C:\Users\javie\Documents\Universidad\Taller Web\Proyecto Final\tienda-ventas\Tienda.Ventas\Tienda.SharedKernel\obj\Debug\netstandard2.0\Tienda.SharedKernel.csproj.CoreCompileInputs.cache
+C:\Users\javie\Documents\Universidad\Taller Web\Proyecto Final\tienda-ventas\Tienda.Ventas\Tienda.SharedKernel\obj\Debug\netstandard2.0\Tienda.SharedKernel.AssemblyInfoInputs.cache
+C:\Users\javie\Documents\Universidad\Taller Web\Proyecto Final\tienda-ventas\Tienda.Ventas\Tienda.SharedKernel\obj\Debug\netstandard2.0\Tienda.SharedKernel.AssemblyInfo.cs
