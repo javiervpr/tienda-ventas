@@ -1,0 +1,10 @@
+
+.product-card {
+  width: 200px;
+  margin: 15px;
+}
+
+.card-actions {
+  display: flex;
+  justify-content: center;
+}
