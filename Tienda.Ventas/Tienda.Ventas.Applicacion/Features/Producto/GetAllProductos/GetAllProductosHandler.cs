@@ -29,7 +29,8 @@ namespace Tienda.Ventas.Applicacion.Features.Producto.GetAllProductos
                     Id = item.Id,
                     Nombre = item.Nombre,
                     Precio = item.Precio,
-                    UrlImagen = item.UrlImagen
+                    UrlImagen = item.UrlImagen,
+                    Categoria = item.Categoria
                 });
             }
 
