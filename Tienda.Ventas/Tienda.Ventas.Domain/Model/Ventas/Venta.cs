@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Collections.Immutable;
 using System.Text;
 using Tienda.SharedKernel.Core;
+using Tienda.Ventas.Domain.Model.Ventas.Rules;
 
 namespace Tienda.Ventas.Domain.Model.Ventas
 {
@@ -13,14 +14,32 @@ namespace Tienda.Ventas.Domain.Model.Ventas
         public Cliente Cliente { get; private set; }
         public DateTime FechaCreacion { get; private set; }
         public DateTime? FechaFinalizacion { get; private set; }
-        public DateTime? FechaCancelacion { get; private set; }
         public DateTime? FechaAnulacion { get; private set; }
+        public Factura Factura { get; private set; }
 
-        private Factura _factura;
-        private List<DetalleVenta> _listaDetalles;
+        protected Venta() { }
 
+        public Venta(Cliente cliente, string razonSocial, string nit)
+        {
+            Id = Guid.NewGuid();
+            FechaCreacion = DateTime.Now;
+            EstadoVenta = EstadoVenta.Pagada;
+            Cliente = cliente;
+            Factura = new Factura(razonSocial,nit, this);
+        }
 
-        public ImmutableList<DetalleVenta>
+        public void AnularVenta()
+        {
+            CheckRule(new ChangeVentaStatusRule(EstadoVenta, EstadoVenta.Anulada));
+            FechaAnulacion = DateTime.Now;
+            EstadoVenta = EstadoVenta.Anulada;
+        }
 
+        public void FinalizarVenta()
+        {
+            CheckRule(new ChangeVentaStatusRule(EstadoVenta, EstadoVenta.Finalizada));
+            FechaFinalizacion = DateTime.Now;
+            EstadoVenta = EstadoVenta.Finalizada;
+        }
     }
 }

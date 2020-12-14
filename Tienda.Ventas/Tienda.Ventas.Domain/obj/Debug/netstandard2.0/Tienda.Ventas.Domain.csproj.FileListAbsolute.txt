@@ -1,4 +1,0 @@
-C:\Users\javie\Documents\Universidad\Taller Web\Proyecto Final\tienda-ventas\Tienda.Ventas\Tienda.Ventas.Domain\bin\Debug\netstandard2.0\Tienda.SharedKernel.dll
-C:\Users\javie\Documents\Universidad\Taller Web\Proyecto Final\tienda-ventas\Tienda.Ventas\Tienda.Ventas.Domain\obj\Debug\netstandard2.0\Tienda.Ventas.Domain.csprojAssemblyReference.cache
-C:\Users\javie\Documents\Universidad\Taller Web\Proyecto Final\tienda-ventas\Tienda.Ventas\Tienda.Ventas.Domain\obj\Debug\netstandard2.0\Tienda.Ventas.Domain.AssemblyInfoInputs.cache
-C:\Users\javie\Documents\Universidad\Taller Web\Proyecto Final\tienda-ventas\Tienda.Ventas\Tienda.Ventas.Domain\obj\Debug\netstandard2.0\Tienda.Ventas.Domain.AssemblyInfo.cs
