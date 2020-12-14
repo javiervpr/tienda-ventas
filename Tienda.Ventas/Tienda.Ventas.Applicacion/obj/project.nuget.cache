@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "/169CcjZqdrSGhqmIG2s0h+jQxizGmyTV6ZudttQ3AJCil7iAYasn0t3B0opLRE1KppNa8iKdb0kN3raON1aiQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\javie\\Documents\\Universidad\\Taller Web\\Proyecto Final\\tienda-ventas\\Tienda.Ventas\\Tienda.Ventas.Applicacion\\Tienda.Ventas.Applicacion.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\javie\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\javie\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
+    "C:\\Users\\javie\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\javie\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.0.0\\microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512",
+    "C:\\Users\\javie\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

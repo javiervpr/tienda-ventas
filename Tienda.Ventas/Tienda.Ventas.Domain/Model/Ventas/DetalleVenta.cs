@@ -2,25 +2,27 @@
 using System.Collections.Generic;
 using System.Text;
 using Tienda.SharedKernel.Core;
+using Tienda.Ventas.Domain.ValueObjects;
 
 namespace Tienda.Ventas.Domain.Model.Ventas
 {
     public class DetalleVenta: Entity
     {
         public Guid Id { get; private set; }
-        public int Cantidad { get; private set; }
-        public double Subtotal { get; private set; }
+        public NumMayorACeroValue Cantidad { get; private set; }
+        public DoubleMayorIgualACeroValue Subtotal { get; private set; }
         public Venta Venta { get; private set; }
         public Producto Producto { get; private set; }
-        public double Precio { get; private set; }
+        public DoubleMayorIgualACeroValue Precio { get; private set; }
 
-        public DetalleVenta(int cantidad, double subtotal, Venta venta, Producto producto, double precio)
+        public DetalleVenta(int cantidad, Venta venta, Producto producto)
         {
+            Id = Guid.NewGuid();
             Cantidad = cantidad;
-            Subtotal = subtotal;
             Venta = venta;
             Producto = producto;
-            Precio = precio;
+            Precio = producto.Precio.Value;
+            Subtotal = cantidad * producto.Precio.Value;
         }
 
         protected DetalleVenta () { }

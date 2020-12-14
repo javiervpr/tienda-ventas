@@ -24,7 +24,7 @@ namespace Tienda.SharedKernel.ValueObjects
 
         #region Conversion
 
-        public static implicit operator string(PersonNameValue value) => value.Value;
+        public static implicit operator string(PersonNameValue value) => value.Value == null ? "" : value.Value;
 
         public static implicit operator PersonNameValue(string value) => new PersonNameValue(value);
 

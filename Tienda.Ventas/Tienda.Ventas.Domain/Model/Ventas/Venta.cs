@@ -15,12 +15,18 @@ namespace Tienda.Ventas.Domain.Model.Ventas
         public DateTime? FechaFinalizacion { get; private set; }
         public DateTime? FechaCancelacion { get; private set; }
         public DateTime? FechaAnulacion { get; private set; }
+        public Factura Factura { get; private set; }
 
-        private Factura _factura;
-        private List<DetalleVenta> _listaDetalles;
+        protected Venta() { }
 
-
-        public ImmutableList<DetalleVenta>
+        public Venta(Cliente cliente, string razonSocial, string nit)
+        {
+            Id = Guid.NewGuid();
+            FechaCreacion = DateTime.Now;
+            EstadoVenta = EstadoVenta.Creada;
+            Cliente = cliente;
+            Factura = new Factura(razonSocial,nit, this);
+        }
 
     }
 }
