@@ -23,6 +23,9 @@ namespace Tienda.Ventas.Infraestructura.EntityConfiguration
                 .HasColumnName("precio")
                 .IsRequired()
                 .HasColumnType("decimal(20,12)");
+
+            builder.Property(x => x.UrlImagen)
+                .HasColumnName("urlImagen");
         }
     }
 }

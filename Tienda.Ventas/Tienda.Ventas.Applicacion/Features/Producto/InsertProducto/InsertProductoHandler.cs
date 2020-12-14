@@ -22,7 +22,7 @@ namespace Tienda.Ventas.Applicacion.Features.Producto.InsertProducto
 
         public async Task<VoidResult> Handle(InsertProductoCommand request, CancellationToken cancellationToken)
         {
-            Ventas.Domain.Model.Ventas.Producto producto = new Domain.Model.Ventas.Producto(request.Nombre, request.Precio);
+            Ventas.Domain.Model.Ventas.Producto producto = new Domain.Model.Ventas.Producto(request.Nombre, request.Precio, request.UrlImagen);
             await _productoRepository.Insert(producto);
             await _unitOfWork.Commit(cancellationToken);
             return new VoidResult();

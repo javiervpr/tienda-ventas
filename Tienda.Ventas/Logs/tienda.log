@@ -3641,3 +3641,420 @@ VALUES (@p0, @p1, @p2, @p3, @p4);
 2020-12-13 21:17:11.659 -04:00 [INF] HTTP POST /api/ventas responded 200 in 10407.3915 ms
 2020-12-13 21:17:11.661 -04:00 [DBG] 'ApplicationDbContext' disposed.
 2020-12-13 21:17:11.663 -04:00 [INF] Request finished in 10412.2575ms 200 text/plain; charset=utf-8
+2020-12-13 21:25:56.007 -04:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2020-12-13 21:25:56.201 -04:00 [DBG] Loaded hosting startup assembly Tienda.Ventas.WebApp
+2020-12-13 21:25:56.230 -04:00 [INF] Request starting HTTP/2.0 GET https://localhost:44388/weatherforecast  
+2020-12-13 21:25:56.232 -04:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2020-12-13 21:25:56.232 -04:00 [VRB] All hosts are allowed.
+2020-12-13 21:25:56.237 -04:00 [DBG] The request path /weatherforecast does not match a supported file type
+2020-12-13 21:25:56.259 -04:00 [DBG] 1 candidate(s) found for the request path '/weatherforecast'
+2020-12-13 21:25:56.264 -04:00 [DBG] Endpoint 'Tienda.Ventas.WebApp.Controllers.WeatherForecastController.Get (Tienda.Ventas.WebApp)' with route pattern 'WeatherForecast' is valid for the request path '/weatherforecast'
+2020-12-13 21:25:56.265 -04:00 [DBG] Request matched endpoint 'Tienda.Ventas.WebApp.Controllers.WeatherForecastController.Get (Tienda.Ventas.WebApp)'
+2020-12-13 21:25:56.266 -04:00 [INF] Executing endpoint 'Tienda.Ventas.WebApp.Controllers.WeatherForecastController.Get (Tienda.Ventas.WebApp)'
+2020-12-13 21:25:56.273 -04:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2020-12-13 21:25:56.287 -04:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Tienda.Ventas.WebApp.WeatherForecast] Get() on controller Tienda.Ventas.WebApp.Controllers.WeatherForecastController (Tienda.Ventas.WebApp).
+2020-12-13 21:25:56.290 -04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-12-13 21:25:56.291 -04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2020-12-13 21:25:56.291 -04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-12-13 21:25:56.291 -04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-12-13 21:25:56.291 -04:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-12-13 21:25:56.291 -04:00 [DBG] Executing controller factory for controller Tienda.Ventas.WebApp.Controllers.WeatherForecastController (Tienda.Ventas.WebApp)
+2020-12-13 21:25:56.292 -04:00 [DBG] Executed controller factory for controller Tienda.Ventas.WebApp.Controllers.WeatherForecastController (Tienda.Ventas.WebApp)
+2020-12-13 21:25:56.292 -04:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-13 21:25:56.292 -04:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-13 21:25:56.292 -04:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-13 21:25:56.292 -04:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-13 21:25:56.296 -04:00 [INF] Executing action method Tienda.Ventas.WebApp.Controllers.WeatherForecastController.Get (Tienda.Ventas.WebApp) - Validation state: "Valid"
+2020-12-13 21:25:56.300 -04:00 [INF] Executed action method Tienda.Ventas.WebApp.Controllers.WeatherForecastController.Get (Tienda.Ventas.WebApp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.9349ms.
+2020-12-13 21:25:56.300 -04:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-13 21:25:56.300 -04:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-13 21:25:56.301 -04:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-13 21:25:56.301 -04:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-13 21:25:56.301 -04:00 [VRB] Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-13 21:25:56.301 -04:00 [VRB] Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-13 21:25:56.302 -04:00 [VRB] Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2020-12-13 21:25:56.302 -04:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2020-12-13 21:25:56.304 -04:00 [DBG] No information found on request to perform content negotiation.
+2020-12-13 21:25:56.304 -04:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2020-12-13 21:25:56.304 -04:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2020-12-13 21:25:56.305 -04:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2020-12-13 21:25:56.305 -04:00 [INF] Executing ObjectResult, writing value of type 'Tienda.Ventas.WebApp.WeatherForecast[]'.
+2020-12-13 21:25:56.328 -04:00 [VRB] After executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2020-12-13 21:25:56.328 -04:00 [VRB] Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-13 21:25:56.328 -04:00 [VRB] Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-13 21:25:56.331 -04:00 [INF] Executed action Tienda.Ventas.WebApp.Controllers.WeatherForecastController.Get (Tienda.Ventas.WebApp) in 36.8495ms
+2020-12-13 21:25:56.331 -04:00 [INF] Executed endpoint 'Tienda.Ventas.WebApp.Controllers.WeatherForecastController.Get (Tienda.Ventas.WebApp)'
+2020-12-13 21:25:56.333 -04:00 [INF] HTTP GET /weatherforecast responded 200 in 93.8863 ms
+2020-12-13 21:25:56.335 -04:00 [INF] Request finished in 107.6823ms 200 application/json; charset=utf-8
+2020-12-13 21:25:59.491 -04:00 [INF] Request starting HTTP/1.1 POST https://localhost:44388/api/productos application/json 169
+2020-12-13 21:25:59.492 -04:00 [VRB] All hosts are allowed.
+2020-12-13 21:25:59.492 -04:00 [DBG] POST requests are not supported
+2020-12-13 21:25:59.493 -04:00 [DBG] 1 candidate(s) found for the request path '/api/productos'
+2020-12-13 21:25:59.493 -04:00 [DBG] Endpoint 'Tienda.Ventas.WebApp.Controllers.ProductosController.InsertProducto (Tienda.Ventas.WebApp)' with route pattern 'api/Productos' is valid for the request path '/api/productos'
+2020-12-13 21:25:59.493 -04:00 [DBG] Request matched endpoint 'Tienda.Ventas.WebApp.Controllers.ProductosController.InsertProducto (Tienda.Ventas.WebApp)'
+2020-12-13 21:25:59.493 -04:00 [INF] Executing endpoint 'Tienda.Ventas.WebApp.Controllers.ProductosController.InsertProducto (Tienda.Ventas.WebApp)'
+2020-12-13 21:25:59.513 -04:00 [INF] Route matched with {action = "InsertProducto", controller = "Productos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] InsertProducto(Tienda.Ventas.Applicacion.Features.Producto.InsertProducto.InsertProductoCommand) on controller Tienda.Ventas.WebApp.Controllers.ProductosController (Tienda.Ventas.WebApp).
+2020-12-13 21:25:59.513 -04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-12-13 21:25:59.513 -04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2020-12-13 21:25:59.513 -04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-12-13 21:25:59.513 -04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-12-13 21:25:59.513 -04:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-12-13 21:25:59.513 -04:00 [DBG] Executing controller factory for controller Tienda.Ventas.WebApp.Controllers.ProductosController (Tienda.Ventas.WebApp)
+2020-12-13 21:25:59.514 -04:00 [DBG] Executed controller factory for controller Tienda.Ventas.WebApp.Controllers.ProductosController (Tienda.Ventas.WebApp)
+2020-12-13 21:25:59.518 -04:00 [DBG] Attempting to bind parameter 'productoCommand' of type 'Tienda.Ventas.Applicacion.Features.Producto.InsertProducto.InsertProductoCommand' ...
+2020-12-13 21:25:59.520 -04:00 [DBG] Attempting to bind parameter 'productoCommand' of type 'Tienda.Ventas.Applicacion.Features.Producto.InsertProducto.InsertProductoCommand' using the name '' in request data ...
+2020-12-13 21:25:59.520 -04:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2020-12-13 21:25:59.529 -04:00 [DBG] JSON input formatter succeeded, deserializing to type 'Tienda.Ventas.Applicacion.Features.Producto.InsertProducto.InsertProductoCommand'
+2020-12-13 21:25:59.529 -04:00 [DBG] Done attempting to bind parameter 'productoCommand' of type 'Tienda.Ventas.Applicacion.Features.Producto.InsertProducto.InsertProductoCommand'.
+2020-12-13 21:25:59.529 -04:00 [DBG] Done attempting to bind parameter 'productoCommand' of type 'Tienda.Ventas.Applicacion.Features.Producto.InsertProducto.InsertProductoCommand'.
+2020-12-13 21:25:59.529 -04:00 [DBG] Attempting to validate the bound parameter 'productoCommand' of type 'Tienda.Ventas.Applicacion.Features.Producto.InsertProducto.InsertProductoCommand' ...
+2020-12-13 21:25:59.531 -04:00 [DBG] Done attempting to validate the bound parameter 'productoCommand' of type 'Tienda.Ventas.Applicacion.Features.Producto.InsertProducto.InsertProductoCommand'.
+2020-12-13 21:25:59.532 -04:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-13 21:25:59.532 -04:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-13 21:25:59.532 -04:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-13 21:25:59.532 -04:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-13 21:25:59.532 -04:00 [INF] Executing action method Tienda.Ventas.WebApp.Controllers.ProductosController.InsertProducto (Tienda.Ventas.WebApp) - Validation state: "Valid"
+2020-12-13 21:25:59.532 -04:00 [VRB] Executing action method Tienda.Ventas.WebApp.Controllers.ProductosController.InsertProducto (Tienda.Ventas.WebApp) with arguments (["Tienda.Ventas.Applicacion.Features.Producto.InsertProducto.InsertProductoCommand"])
+2020-12-13 21:25:59.533 -04:00 [INF] Insertando producto con los parametros
+2020-12-13 21:26:00.104 -04:00 [DBG] The property 'ClienteId.EmailValue' was created in shadow state because there are no eligible CLR members with a matching name.
+2020-12-13 21:26:00.104 -04:00 [DBG] The property 'ClienteId.PasswordValue' was created in shadow state because there are no eligible CLR members with a matching name.
+2020-12-13 21:26:00.104 -04:00 [DBG] The property 'ProductoId.DetalleVenta' was created in shadow state because there are no eligible CLR members with a matching name.
+2020-12-13 21:26:00.104 -04:00 [DBG] The property 'VentaId.DetalleVenta' was created in shadow state because there are no eligible CLR members with a matching name.
+2020-12-13 21:26:00.105 -04:00 [DBG] The property 'VentaId.Factura' was created in shadow state because there are no eligible CLR members with a matching name.
+2020-12-13 21:26:00.105 -04:00 [DBG] The property 'ClienteId.Venta' was created in shadow state because there are no eligible CLR members with a matching name.
+2020-12-13 21:26:00.105 -04:00 [DBG] The property 'FacturaId.NITValue' was created in shadow state because there are no eligible CLR members with a matching name.
+2020-12-13 21:26:00.105 -04:00 [DBG] The property 'DetalleVentaId.NumMayorACeroValue' was created in shadow state because there are no eligible CLR members with a matching name.
+2020-12-13 21:26:00.105 -04:00 [DBG] The property 'ProductoId.ProductoNombreValue' was created in shadow state because there are no eligible CLR members with a matching name.
+2020-12-13 21:26:00.105 -04:00 [DBG] The property 'ProductoId.ProductoPrecioValue' was created in shadow state because there are no eligible CLR members with a matching name.
+2020-12-13 21:26:00.105 -04:00 [DBG] The property 'FacturaId.RazonSocialValue' was created in shadow state because there are no eligible CLR members with a matching name.
+2020-12-13 21:26:00.106 -04:00 [DBG] The property 'ClienteId.Cliente.Apellidos#PersonNameValue' was created in shadow state because there are no eligible CLR members with a matching name.
+2020-12-13 21:26:00.106 -04:00 [DBG] The property 'ClienteId.Cliente.Nombres#PersonNameValue' was created in shadow state because there are no eligible CLR members with a matching name.
+2020-12-13 21:26:00.106 -04:00 [DBG] The property 'DetalleVentaId.DetalleVenta.Precio#DoubleMayorIgualACeroValue' was created in shadow state because there are no eligible CLR members with a matching name.
+2020-12-13 21:26:00.106 -04:00 [DBG] The property 'DetalleVentaId.DetalleVenta.Subtotal#DoubleMayorIgualACeroValue' was created in shadow state because there are no eligible CLR members with a matching name.
+2020-12-13 21:26:00.235 -04:00 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=Tienda.Ventas.Infraestructura, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2020-12-13 21:26:00.304 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-13 21:26:00.319 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-13 21:26:00.325 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-13 21:26:00.327 -04:00 [DBG] SaveChanges starting for 'ApplicationDbContext'.
+2020-12-13 21:26:00.331 -04:00 [DBG] DetectChanges starting for 'ApplicationDbContext'.
+2020-12-13 21:26:00.339 -04:00 [DBG] DetectChanges completed for 'ApplicationDbContext'.
+2020-12-13 21:26:00.394 -04:00 [DBG] Opening connection to database 'TiendaVentas' on server '.'.
+2020-12-13 21:26:00.641 -04:00 [DBG] Opened connection to database 'TiendaVentas' on server '.'.
+2020-12-13 21:26:00.643 -04:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2020-12-13 21:26:00.654 -04:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2020-12-13 21:26:00.698 -04:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2020-12-13 21:26:00.703 -04:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2020-12-13 21:26:00.720 -04:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Precision = 20) (Scale = 12) (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Productos] ([Id], [urlImagen], [nombre], [precio])
+VALUES (@p0, @p1, @p2, @p3);
+2020-12-13 21:26:00.761 -04:00 [INF] Executed DbCommand (43ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Precision = 20) (Scale = 12) (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Productos] ([Id], [urlImagen], [nombre], [precio])
+VALUES (@p0, @p1, @p2, @p3);
+2020-12-13 21:26:00.767 -04:00 [DBG] A data reader was disposed.
+2020-12-13 21:26:00.771 -04:00 [DBG] Committing transaction.
+2020-12-13 21:26:00.774 -04:00 [DBG] Committed transaction.
+2020-12-13 21:26:00.777 -04:00 [DBG] Closing connection to database 'TiendaVentas' on server '.'.
+2020-12-13 21:26:00.781 -04:00 [DBG] Closed connection to database 'TiendaVentas' on server '.'.
+2020-12-13 21:26:00.783 -04:00 [DBG] Disposing transaction.
+2020-12-13 21:26:00.790 -04:00 [DBG] An entity of type 'Producto' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-13 21:26:00.790 -04:00 [DBG] An entity of type 'ProductoNombreValue' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-13 21:26:00.790 -04:00 [DBG] An entity of type 'ProductoPrecioValue' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-13 21:26:00.792 -04:00 [DBG] SaveChanges completed for 'ApplicationDbContext' with 1 entities written to the database.
+2020-12-13 21:26:00.794 -04:00 [INF] Executed action method Tienda.Ventas.WebApp.Controllers.ProductosController.InsertProducto (Tienda.Ventas.WebApp), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1262.2633ms.
+2020-12-13 21:26:00.795 -04:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-13 21:26:00.795 -04:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-13 21:26:00.795 -04:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-13 21:26:00.795 -04:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-13 21:26:00.796 -04:00 [VRB] Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-13 21:26:00.796 -04:00 [VRB] Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-13 21:26:00.796 -04:00 [VRB] Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2020-12-13 21:26:00.796 -04:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2020-12-13 21:26:00.796 -04:00 [DBG] No information found on request to perform content negotiation.
+2020-12-13 21:26:00.796 -04:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2020-12-13 21:26:00.796 -04:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2020-12-13 21:26:00.796 -04:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2020-12-13 21:26:00.796 -04:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2020-12-13 21:26:00.798 -04:00 [VRB] After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2020-12-13 21:26:00.798 -04:00 [VRB] Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-13 21:26:00.798 -04:00 [VRB] Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-13 21:26:00.798 -04:00 [INF] Executed action Tienda.Ventas.WebApp.Controllers.ProductosController.InsertProducto (Tienda.Ventas.WebApp) in 1285.1734ms
+2020-12-13 21:26:00.799 -04:00 [INF] Executed endpoint 'Tienda.Ventas.WebApp.Controllers.ProductosController.InsertProducto (Tienda.Ventas.WebApp)'
+2020-12-13 21:26:00.800 -04:00 [INF] HTTP POST /api/productos responded 200 in 1307.9807 ms
+2020-12-13 21:26:00.803 -04:00 [DBG] 'ApplicationDbContext' disposed.
+2020-12-13 21:26:00.804 -04:00 [INF] Request finished in 1313.7677ms 200 text/plain; charset=utf-8
+2020-12-13 21:26:06.878 -04:00 [INF] Request starting HTTP/1.1 GET https://localhost:44388/api/productos  
+2020-12-13 21:26:06.878 -04:00 [VRB] All hosts are allowed.
+2020-12-13 21:26:06.879 -04:00 [DBG] The request path /api/productos does not match a supported file type
+2020-12-13 21:26:06.880 -04:00 [DBG] 1 candidate(s) found for the request path '/api/productos'
+2020-12-13 21:26:06.881 -04:00 [DBG] Endpoint 'Tienda.Ventas.WebApp.Controllers.ProductosController.GetProductos (Tienda.Ventas.WebApp)' with route pattern 'api/Productos' is valid for the request path '/api/productos'
+2020-12-13 21:26:06.881 -04:00 [DBG] Request matched endpoint 'Tienda.Ventas.WebApp.Controllers.ProductosController.GetProductos (Tienda.Ventas.WebApp)'
+2020-12-13 21:26:06.881 -04:00 [INF] Executing endpoint 'Tienda.Ventas.WebApp.Controllers.ProductosController.GetProductos (Tienda.Ventas.WebApp)'
+2020-12-13 21:26:06.890 -04:00 [INF] Route matched with {action = "GetProductos", controller = "Productos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProductos() on controller Tienda.Ventas.WebApp.Controllers.ProductosController (Tienda.Ventas.WebApp).
+2020-12-13 21:26:06.890 -04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-12-13 21:26:06.890 -04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2020-12-13 21:26:06.891 -04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-12-13 21:26:06.891 -04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-12-13 21:26:06.891 -04:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-12-13 21:26:06.891 -04:00 [DBG] Executing controller factory for controller Tienda.Ventas.WebApp.Controllers.ProductosController (Tienda.Ventas.WebApp)
+2020-12-13 21:26:06.891 -04:00 [DBG] Executed controller factory for controller Tienda.Ventas.WebApp.Controllers.ProductosController (Tienda.Ventas.WebApp)
+2020-12-13 21:26:06.891 -04:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-13 21:26:06.891 -04:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-13 21:26:06.891 -04:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-13 21:26:06.891 -04:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-13 21:26:06.891 -04:00 [INF] Executing action method Tienda.Ventas.WebApp.Controllers.ProductosController.GetProductos (Tienda.Ventas.WebApp) - Validation state: "Valid"
+2020-12-13 21:26:06.892 -04:00 [INF] Obteniendo productos...
+2020-12-13 21:26:06.922 -04:00 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=Tienda.Ventas.Infraestructura, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2020-12-13 21:26:06.968 -04:00 [DBG] Compiling query expression: 
+'DbSet<Producto>()'
+2020-12-13 21:26:06.988 -04:00 [DBG] Including navigation: 'Producto.Nombre'.
+2020-12-13 21:26:06.988 -04:00 [DBG] Including navigation: 'Producto.Precio'.
+2020-12-13 21:26:07.119 -04:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Producto>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+        SELECT p.Id, p.urlImagen, p.nombre, p.precio
+        FROM Productos AS p), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Producto>, 
+    Tienda.Ventas.Infraestructura.Persistence.ApplicationDbContext, 
+    False, 
+    False
+)'
+2020-12-13 21:26:07.141 -04:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2020-12-13 21:26:07.141 -04:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2020-12-13 21:26:07.142 -04:00 [DBG] Opening connection to database 'TiendaVentas' on server '.'.
+2020-12-13 21:26:07.142 -04:00 [DBG] Opened connection to database 'TiendaVentas' on server '.'.
+2020-12-13 21:26:07.143 -04:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[urlImagen], [p].[nombre], [p].[precio]
+FROM [Productos] AS [p]
+2020-12-13 21:26:07.153 -04:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[urlImagen], [p].[nombre], [p].[precio]
+FROM [Productos] AS [p]
+2020-12-13 21:26:07.167 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-13 21:26:07.169 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-13 21:26:07.171 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-13 21:26:07.173 -04:00 [DBG] A data reader was disposed.
+2020-12-13 21:26:07.173 -04:00 [DBG] Closing connection to database 'TiendaVentas' on server '.'.
+2020-12-13 21:26:07.173 -04:00 [DBG] Closed connection to database 'TiendaVentas' on server '.'.
+2020-12-13 21:26:07.174 -04:00 [INF] Executed action method Tienda.Ventas.WebApp.Controllers.ProductosController.GetProductos (Tienda.Ventas.WebApp), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 282.9421ms.
+2020-12-13 21:26:07.174 -04:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-13 21:26:07.174 -04:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-13 21:26:07.174 -04:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-13 21:26:07.175 -04:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-13 21:26:07.175 -04:00 [VRB] Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-13 21:26:07.175 -04:00 [VRB] Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-13 21:26:07.175 -04:00 [VRB] Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2020-12-13 21:26:07.175 -04:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2020-12-13 21:26:07.175 -04:00 [DBG] No information found on request to perform content negotiation.
+2020-12-13 21:26:07.175 -04:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2020-12-13 21:26:07.175 -04:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2020-12-13 21:26:07.175 -04:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2020-12-13 21:26:07.175 -04:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tienda.Ventas.Applicacion.DTO.ProductoDTO, Tienda.Ventas.Applicacion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-12-13 21:26:07.177 -04:00 [VRB] After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2020-12-13 21:26:07.177 -04:00 [VRB] Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-13 21:26:07.177 -04:00 [VRB] Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-13 21:26:07.177 -04:00 [INF] Executed action Tienda.Ventas.WebApp.Controllers.ProductosController.GetProductos (Tienda.Ventas.WebApp) in 286.6259ms
+2020-12-13 21:26:07.177 -04:00 [INF] Executed endpoint 'Tienda.Ventas.WebApp.Controllers.ProductosController.GetProductos (Tienda.Ventas.WebApp)'
+2020-12-13 21:26:07.178 -04:00 [INF] HTTP GET /api/productos responded 200 in 298.4904 ms
+2020-12-13 21:26:07.178 -04:00 [DBG] 'ApplicationDbContext' disposed.
+2020-12-13 21:26:07.178 -04:00 [INF] Request finished in 300.5077ms 200 application/json; charset=utf-8
+2020-12-13 21:26:29.718 -04:00 [INF] Request starting HTTP/1.1 POST https://localhost:44388/api/ventas application/json 342
+2020-12-13 21:26:29.718 -04:00 [VRB] All hosts are allowed.
+2020-12-13 21:26:29.718 -04:00 [DBG] POST requests are not supported
+2020-12-13 21:26:29.718 -04:00 [DBG] 1 candidate(s) found for the request path '/api/ventas'
+2020-12-13 21:26:29.718 -04:00 [DBG] Endpoint 'Tienda.Ventas.WebApp.Controllers.VentasController.InsertVenta (Tienda.Ventas.WebApp)' with route pattern 'api/Ventas' is valid for the request path '/api/ventas'
+2020-12-13 21:26:29.718 -04:00 [DBG] Request matched endpoint 'Tienda.Ventas.WebApp.Controllers.VentasController.InsertVenta (Tienda.Ventas.WebApp)'
+2020-12-13 21:26:29.718 -04:00 [INF] Executing endpoint 'Tienda.Ventas.WebApp.Controllers.VentasController.InsertVenta (Tienda.Ventas.WebApp)'
+2020-12-13 21:26:29.722 -04:00 [INF] Route matched with {action = "InsertVenta", controller = "Ventas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] InsertVenta(Tienda.Ventas.Applicacion.Features.Venta.InsertVenta.InsertVentaCommand) on controller Tienda.Ventas.WebApp.Controllers.VentasController (Tienda.Ventas.WebApp).
+2020-12-13 21:26:29.722 -04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-12-13 21:26:29.722 -04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2020-12-13 21:26:29.722 -04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-12-13 21:26:29.723 -04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-12-13 21:26:29.723 -04:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-12-13 21:26:29.723 -04:00 [DBG] Executing controller factory for controller Tienda.Ventas.WebApp.Controllers.VentasController (Tienda.Ventas.WebApp)
+2020-12-13 21:26:29.723 -04:00 [DBG] Executed controller factory for controller Tienda.Ventas.WebApp.Controllers.VentasController (Tienda.Ventas.WebApp)
+2020-12-13 21:26:29.723 -04:00 [DBG] Attempting to bind parameter 'insertVentaCommand' of type 'Tienda.Ventas.Applicacion.Features.Venta.InsertVenta.InsertVentaCommand' ...
+2020-12-13 21:26:29.723 -04:00 [DBG] Attempting to bind parameter 'insertVentaCommand' of type 'Tienda.Ventas.Applicacion.Features.Venta.InsertVenta.InsertVentaCommand' using the name '' in request data ...
+2020-12-13 21:26:29.723 -04:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2020-12-13 21:26:29.730 -04:00 [DBG] JSON input formatter succeeded, deserializing to type 'Tienda.Ventas.Applicacion.Features.Venta.InsertVenta.InsertVentaCommand'
+2020-12-13 21:26:29.730 -04:00 [DBG] Done attempting to bind parameter 'insertVentaCommand' of type 'Tienda.Ventas.Applicacion.Features.Venta.InsertVenta.InsertVentaCommand'.
+2020-12-13 21:26:29.730 -04:00 [DBG] Done attempting to bind parameter 'insertVentaCommand' of type 'Tienda.Ventas.Applicacion.Features.Venta.InsertVenta.InsertVentaCommand'.
+2020-12-13 21:26:29.730 -04:00 [DBG] Attempting to validate the bound parameter 'insertVentaCommand' of type 'Tienda.Ventas.Applicacion.Features.Venta.InsertVenta.InsertVentaCommand' ...
+2020-12-13 21:26:29.736 -04:00 [DBG] Done attempting to validate the bound parameter 'insertVentaCommand' of type 'Tienda.Ventas.Applicacion.Features.Venta.InsertVenta.InsertVentaCommand'.
+2020-12-13 21:26:29.736 -04:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-13 21:26:29.736 -04:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-13 21:26:29.736 -04:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-13 21:26:29.736 -04:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-13 21:26:29.736 -04:00 [INF] Executing action method Tienda.Ventas.WebApp.Controllers.VentasController.InsertVenta (Tienda.Ventas.WebApp) - Validation state: "Valid"
+2020-12-13 21:26:29.736 -04:00 [VRB] Executing action method Tienda.Ventas.WebApp.Controllers.VentasController.InsertVenta (Tienda.Ventas.WebApp) with arguments (["Tienda.Ventas.Applicacion.Features.Venta.InsertVenta.InsertVentaCommand"])
+2020-12-13 21:26:29.737 -04:00 [INF] Insertando venta con los parametros
+2020-12-13 21:26:29.747 -04:00 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=Tienda.Ventas.Infraestructura, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2020-12-13 21:26:29.757 -04:00 [DBG] Compiling query expression: 
+'DbSet<Cliente>()
+    .Where(c => c.Id.Equals(__ventaDTO_Cliente_Id_0))
+    .FirstOrDefault()'
+2020-12-13 21:26:29.765 -04:00 [DBG] Including navigation: 'Cliente.Apellidos'.
+2020-12-13 21:26:29.765 -04:00 [DBG] Including navigation: 'Cliente.Email'.
+2020-12-13 21:26:29.765 -04:00 [DBG] Including navigation: 'Cliente.Nombres'.
+2020-12-13 21:26:29.766 -04:00 [DBG] Including navigation: 'Cliente.Password'.
+2020-12-13 21:26:29.803 -04:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<Cliente>(
+    asyncEnumerable: new SingleQueryingEnumerable<Cliente>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+            SELECT TOP(1) c.Id, c.apellidos, c.email, c.nombres, c.password
+            FROM Clientes AS c
+            WHERE c.Id == @__ventaDTO_Cliente_Id_0), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Cliente>, 
+        Tienda.Ventas.Infraestructura.Persistence.ApplicationDbContext, 
+        False, 
+        False
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2020-12-13 21:26:29.808 -04:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2020-12-13 21:26:29.809 -04:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2020-12-13 21:26:29.809 -04:00 [DBG] Opening connection to database 'TiendaVentas' on server '.'.
+2020-12-13 21:26:29.809 -04:00 [DBG] Opened connection to database 'TiendaVentas' on server '.'.
+2020-12-13 21:26:29.809 -04:00 [DBG] Executing DbCommand [Parameters=[@__ventaDTO_Cliente_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[apellidos], [c].[email], [c].[nombres], [c].[password]
+FROM [Clientes] AS [c]
+WHERE [c].[Id] = @__ventaDTO_Cliente_Id_0
+2020-12-13 21:26:29.816 -04:00 [INF] Executed DbCommand (7ms) [Parameters=[@__ventaDTO_Cliente_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[apellidos], [c].[email], [c].[nombres], [c].[password]
+FROM [Clientes] AS [c]
+WHERE [c].[Id] = @__ventaDTO_Cliente_Id_0
+2020-12-13 21:26:29.828 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Cliente' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-13 21:26:29.831 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'PersonNameValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-13 21:26:29.835 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'EmailValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-13 21:26:29.838 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'PersonNameValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-13 21:26:29.841 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'PasswordValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-13 21:26:29.844 -04:00 [DBG] A data reader was disposed.
+2020-12-13 21:26:29.844 -04:00 [DBG] Closing connection to database 'TiendaVentas' on server '.'.
+2020-12-13 21:26:29.844 -04:00 [DBG] Closed connection to database 'TiendaVentas' on server '.'.
+2020-12-13 21:26:29.872 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Venta' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-13 21:26:29.882 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Factura' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-13 21:26:29.885 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NITValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-13 21:26:29.887 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'RazonSocialValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-13 21:26:29.888 -04:00 [DBG] Compiling query expression: 
+'DbSet<Producto>()
+    .Where(p => p.Id.Equals(__detalle_Producto_Id_0))
+    .FirstOrDefault()'
+2020-12-13 21:26:29.888 -04:00 [DBG] Including navigation: 'Producto.Nombre'.
+2020-12-13 21:26:29.888 -04:00 [DBG] Including navigation: 'Producto.Precio'.
+2020-12-13 21:26:29.893 -04:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<Producto>(
+    asyncEnumerable: new SingleQueryingEnumerable<Producto>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+            SELECT TOP(1) p.Id, p.urlImagen, p.nombre, p.precio
+            FROM Productos AS p
+            WHERE p.Id == @__detalle_Producto_Id_0), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Producto>, 
+        Tienda.Ventas.Infraestructura.Persistence.ApplicationDbContext, 
+        False, 
+        False
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2020-12-13 21:26:29.893 -04:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2020-12-13 21:26:29.893 -04:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2020-12-13 21:26:29.893 -04:00 [DBG] Opening connection to database 'TiendaVentas' on server '.'.
+2020-12-13 21:26:29.893 -04:00 [DBG] Opened connection to database 'TiendaVentas' on server '.'.
+2020-12-13 21:26:29.893 -04:00 [DBG] Executing DbCommand [Parameters=[@__detalle_Producto_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[urlImagen], [p].[nombre], [p].[precio]
+FROM [Productos] AS [p]
+WHERE [p].[Id] = @__detalle_Producto_Id_0
+2020-12-13 21:26:29.895 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[@__detalle_Producto_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[urlImagen], [p].[nombre], [p].[precio]
+FROM [Productos] AS [p]
+WHERE [p].[Id] = @__detalle_Producto_Id_0
+2020-12-13 21:26:29.895 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-13 21:26:29.895 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-13 21:26:29.895 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-13 21:26:29.895 -04:00 [DBG] A data reader was disposed.
+2020-12-13 21:26:29.895 -04:00 [DBG] Closing connection to database 'TiendaVentas' on server '.'.
+2020-12-13 21:26:29.895 -04:00 [DBG] Closed connection to database 'TiendaVentas' on server '.'.
+2020-12-13 21:26:29.909 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'DetalleVenta' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-13 21:26:29.916 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NumMayorACeroValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-13 21:26:29.918 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'DoubleMayorIgualACeroValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-13 21:26:29.920 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'DoubleMayorIgualACeroValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-13 21:26:29.920 -04:00 [DBG] SaveChanges starting for 'ApplicationDbContext'.
+2020-12-13 21:26:29.920 -04:00 [DBG] DetectChanges starting for 'ApplicationDbContext'.
+2020-12-13 21:26:29.933 -04:00 [DBG] DetectChanges completed for 'ApplicationDbContext'.
+2020-12-13 21:26:29.933 -04:00 [DBG] Opening connection to database 'TiendaVentas' on server '.'.
+2020-12-13 21:26:29.933 -04:00 [DBG] Opened connection to database 'TiendaVentas' on server '.'.
+2020-12-13 21:26:29.933 -04:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2020-12-13 21:26:29.934 -04:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2020-12-13 21:26:29.935 -04:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2020-12-13 21:26:29.935 -04:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2020-12-13 21:26:29.936 -04:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (DbType = Int32), @p3='?' (DbType = DateTime2), @p4='?' (DbType = DateTime2), @p5='?' (DbType = DateTime2), @p6='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Ventas] ([Id], [ClienteId], [estado], [fechaAnulacion], [fechaCancelacion], [fechaCreacion], [fechaFinalizacion])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2020-12-13 21:26:29.939 -04:00 [INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (DbType = Int32), @p3='?' (DbType = DateTime2), @p4='?' (DbType = DateTime2), @p5='?' (DbType = DateTime2), @p6='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Ventas] ([Id], [ClienteId], [estado], [fechaAnulacion], [fechaCancelacion], [fechaCreacion], [fechaFinalizacion])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2020-12-13 21:26:29.940 -04:00 [DBG] A data reader was disposed.
+2020-12-13 21:26:29.946 -04:00 [DBG] Executing update commands individually as the number of batchable commands (2) is smaller than the minimum batch size (4).
+2020-12-13 21:26:29.947 -04:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2020-12-13 21:26:29.947 -04:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2020-12-13 21:26:29.947 -04:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (DbType = Guid), @p3='?' (DbType = Double), @p4='?' (DbType = Double), @p5='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [DetalleVentas] ([Id], [ProductoId], [VentaId], [precio], [subtotal], [cantidad])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2020-12-13 21:26:29.949 -04:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (DbType = Guid), @p3='?' (DbType = Double), @p4='?' (DbType = Double), @p5='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [DetalleVentas] ([Id], [ProductoId], [VentaId], [precio], [subtotal], [cantidad])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2020-12-13 21:26:29.950 -04:00 [DBG] A data reader was disposed.
+2020-12-13 21:26:29.950 -04:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2020-12-13 21:26:29.950 -04:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2020-12-13 21:26:29.950 -04:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Guid), @p3='?' (Size = 4000), @p4='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Facturas] ([Id], [FechaEmision], [VentaId], [nit], [razonSocial])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2020-12-13 21:26:29.953 -04:00 [INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Guid), @p3='?' (Size = 4000), @p4='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Facturas] ([Id], [FechaEmision], [VentaId], [nit], [razonSocial])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2020-12-13 21:26:29.953 -04:00 [DBG] A data reader was disposed.
+2020-12-13 21:26:29.953 -04:00 [DBG] Committing transaction.
+2020-12-13 21:26:29.956 -04:00 [DBG] Committed transaction.
+2020-12-13 21:26:29.956 -04:00 [DBG] Closing connection to database 'TiendaVentas' on server '.'.
+2020-12-13 21:26:29.956 -04:00 [DBG] Closed connection to database 'TiendaVentas' on server '.'.
+2020-12-13 21:26:29.956 -04:00 [DBG] Disposing transaction.
+2020-12-13 21:26:29.957 -04:00 [DBG] An entity of type 'Venta' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-13 21:26:29.957 -04:00 [DBG] An entity of type 'Factura' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-13 21:26:29.957 -04:00 [DBG] An entity of type 'NITValue' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-13 21:26:29.957 -04:00 [DBG] An entity of type 'RazonSocialValue' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-13 21:26:29.957 -04:00 [DBG] An entity of type 'DetalleVenta' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-13 21:26:29.958 -04:00 [DBG] An entity of type 'NumMayorACeroValue' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-13 21:26:29.958 -04:00 [DBG] An entity of type 'DoubleMayorIgualACeroValue' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-13 21:26:29.958 -04:00 [DBG] An entity of type 'DoubleMayorIgualACeroValue' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-13 21:26:29.958 -04:00 [DBG] SaveChanges completed for 'ApplicationDbContext' with 3 entities written to the database.
+2020-12-13 21:26:29.958 -04:00 [INF] Executed action method Tienda.Ventas.WebApp.Controllers.VentasController.InsertVenta (Tienda.Ventas.WebApp), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 222.0203ms.
+2020-12-13 21:26:29.958 -04:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-13 21:26:29.958 -04:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-13 21:26:29.958 -04:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-13 21:26:29.958 -04:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-13 21:26:29.958 -04:00 [VRB] Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-13 21:26:29.958 -04:00 [VRB] Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-13 21:26:29.958 -04:00 [VRB] Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2020-12-13 21:26:29.959 -04:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2020-12-13 21:26:29.959 -04:00 [DBG] No information found on request to perform content negotiation.
+2020-12-13 21:26:29.959 -04:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2020-12-13 21:26:29.959 -04:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2020-12-13 21:26:29.959 -04:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2020-12-13 21:26:29.959 -04:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2020-12-13 21:26:29.959 -04:00 [VRB] After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2020-12-13 21:26:29.959 -04:00 [VRB] Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-13 21:26:29.959 -04:00 [VRB] Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-13 21:26:29.959 -04:00 [INF] Executed action Tienda.Ventas.WebApp.Controllers.VentasController.InsertVenta (Tienda.Ventas.WebApp) in 236.6775ms
+2020-12-13 21:26:29.959 -04:00 [INF] Executed endpoint 'Tienda.Ventas.WebApp.Controllers.VentasController.InsertVenta (Tienda.Ventas.WebApp)'
+2020-12-13 21:26:29.959 -04:00 [INF] HTTP POST /api/ventas responded 200 in 241.3833 ms
+2020-12-13 21:26:29.960 -04:00 [DBG] 'ApplicationDbContext' disposed.
+2020-12-13 21:26:29.960 -04:00 [INF] Request finished in 265.7685ms 200 text/plain; charset=utf-8
