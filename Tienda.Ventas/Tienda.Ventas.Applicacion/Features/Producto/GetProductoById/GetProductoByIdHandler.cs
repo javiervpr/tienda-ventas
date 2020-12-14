@@ -25,7 +25,8 @@ namespace Tienda.Ventas.Applicacion.Features.Producto.GetProductoById
             {
                 Id = producto.Id,
                 Nombre = producto.Nombre,
-                Precio = producto.Precio
+                Precio = producto.Precio,
+                UrlImagen = producto.UrlImagen
             };
             return productoDTO;
         }

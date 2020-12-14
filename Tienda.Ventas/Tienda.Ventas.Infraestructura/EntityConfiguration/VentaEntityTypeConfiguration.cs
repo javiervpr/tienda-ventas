@@ -24,8 +24,6 @@ namespace Tienda.Ventas.Infraestructura.EntityConfiguration
             builder.Property(x => x.FechaFinalizacion)
                 .HasColumnName("fechaFinalizacion");
 
-            builder.Property(x => x.FechaCancelacion)
-                .HasColumnName("fechaCancelacion");
 
             builder.Property(x => x.FechaAnulacion)
                 .HasColumnName("fechaAnulacion");

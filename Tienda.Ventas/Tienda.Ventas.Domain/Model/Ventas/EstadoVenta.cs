@@ -6,9 +6,8 @@ namespace Tienda.Ventas.Domain.Model.Ventas
 {
     public enum EstadoVenta
     {
-        Creada = 1,
-        Pagada = 2,
-        Cancelada = -1,
-        Anulada = -2
+        Pagada = 1,
+        Finalizada = 2,
+        Anulada = -1
     }
 }
