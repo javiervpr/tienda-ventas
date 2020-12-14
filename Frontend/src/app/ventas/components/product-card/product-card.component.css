@@ -8,3 +8,13 @@
   display: flex;
   justify-content: center;
 }
+
+.precio {
+  text-align: center;
+  background-color: #9eb0ff7c;
+  border-radius: 3px;
+}
+
+.clickable {
+  cursor: pointer;
+}

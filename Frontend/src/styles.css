@@ -19,3 +19,7 @@ body {
   float: right;
   margin: 8px;
 }
+
+.undecorated {
+  color: white;
+}

@@ -13,13 +13,24 @@ export class ProductCardComponent implements OnInit {
   @Input() precio: number;
   @Input() cantidad: number;
 
+  agregado = false;
+  favorito = false;
+
   constructor() { }
 
   ngOnInit() {
   }
 
   agregarFavorito() {
-    
+    this.favorito = !this.favorito;
+  }
+
+  agregarCarrito() {
+    this.agregado = !this.agregado;
+  }
+
+  detalleProducto() {
+    alert('hola');
   }
 
 }

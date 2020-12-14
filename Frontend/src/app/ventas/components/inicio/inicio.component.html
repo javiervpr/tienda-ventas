@@ -1,0 +1,52 @@
+<mat-tab-group mat-align-tabs="center">
+    <mat-tab label="Salud" class="tab-content">
+      <div class="products-container">
+        <app-product-card *ngFor="let producto of listaProductos"
+          [id]="producto.id"
+          [nombre]="producto.name"
+          [precio]="producto.price"
+          [cantidad]="producto.cantidad">
+        </app-product-card>
+      </div>
+    </mat-tab>
+    <mat-tab label="Deportes">
+      <div class="products-container">
+        <app-product-card *ngFor="let producto of listaProductos"
+          [id]="producto.id"
+          [nombre]="producto.name"
+          [precio]="producto.price"
+          [cantidad]="producto.cantidad">
+        </app-product-card>
+      </div>
+    </mat-tab>
+    <mat-tab label="Tecnología">
+      <div class="products-container">
+        <app-product-card *ngFor="let producto of listaProductos"
+          [id]="producto.id"
+          [nombre]="producto.name"
+          [precio]="producto.price"
+          [cantidad]="producto.cantidad">
+        </app-product-card>
+      </div>
+    </mat-tab>
+    <mat-tab label="Moda">
+      <div class="products-container">
+        <app-product-card *ngFor="let producto of listaProductos"
+          [id]="producto.id"
+          [nombre]="producto.name"
+          [precio]="producto.price"
+          [cantidad]="producto.cantidad">
+        </app-product-card>
+      </div>
+    </mat-tab>
+    <mat-tab label="Oficio">
+      <div class="products-container">
+        <app-product-card *ngFor="let producto of listaProductos"
+          [id]="producto.id"
+          [nombre]="producto.name"
+          [precio]="producto.price"
+          [cantidad]="producto.cantidad">
+        </app-product-card>
+      </div>
+    </mat-tab>
+  </mat-tab-group>
