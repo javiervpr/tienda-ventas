@@ -1,0 +1,13 @@
+C:\Users\HP\Desktop\NUR\Proyectos\TiendaVentas\Tienda.Ventas\Tienda.Ventas.Domain\bin\Debug\netcoreapp3.0\Tienda.Ventas.Domain.deps.json
+C:\Users\HP\Desktop\NUR\Proyectos\TiendaVentas\Tienda.Ventas\Tienda.Ventas.Domain\bin\Debug\netcoreapp3.0\Tienda.Ventas.Domain.runtimeconfig.json
+C:\Users\HP\Desktop\NUR\Proyectos\TiendaVentas\Tienda.Ventas\Tienda.Ventas.Domain\bin\Debug\netcoreapp3.0\Tienda.Ventas.Domain.runtimeconfig.dev.json
+C:\Users\HP\Desktop\NUR\Proyectos\TiendaVentas\Tienda.Ventas\Tienda.Ventas.Domain\bin\Debug\netcoreapp3.0\Tienda.Ventas.Domain.dll
+C:\Users\HP\Desktop\NUR\Proyectos\TiendaVentas\Tienda.Ventas\Tienda.Ventas.Domain\bin\Debug\netcoreapp3.0\Tienda.Ventas.Domain.pdb
+C:\Users\HP\Desktop\NUR\Proyectos\TiendaVentas\Tienda.Ventas\Tienda.Ventas.Domain\bin\Debug\netcoreapp3.0\Tienda.SharedKernel.dll
+C:\Users\HP\Desktop\NUR\Proyectos\TiendaVentas\Tienda.Ventas\Tienda.Ventas.Domain\bin\Debug\netcoreapp3.0\Tienda.SharedKernel.pdb
+C:\Users\HP\Desktop\NUR\Proyectos\TiendaVentas\Tienda.Ventas\Tienda.Ventas.Domain\obj\Debug\netcoreapp3.0\Tienda.Ventas.Domain.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\NUR\Proyectos\TiendaVentas\Tienda.Ventas\Tienda.Ventas.Domain\obj\Debug\netcoreapp3.0\Tienda.Ventas.Domain.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\NUR\Proyectos\TiendaVentas\Tienda.Ventas\Tienda.Ventas.Domain\obj\Debug\netcoreapp3.0\Tienda.Ventas.Domain.AssemblyInfo.cs
+C:\Users\HP\Desktop\NUR\Proyectos\TiendaVentas\Tienda.Ventas\Tienda.Ventas.Domain\obj\Debug\netcoreapp3.0\Tienda.Ventas.Domain.csproj.CopyComplete
+C:\Users\HP\Desktop\NUR\Proyectos\TiendaVentas\Tienda.Ventas\Tienda.Ventas.Domain\obj\Debug\netcoreapp3.0\Tienda.Ventas.Domain.dll
+C:\Users\HP\Desktop\NUR\Proyectos\TiendaVentas\Tienda.Ventas\Tienda.Ventas.Domain\obj\Debug\netcoreapp3.0\Tienda.Ventas.Domain.pdb

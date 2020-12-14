@@ -22,12 +22,13 @@ export class InicioComponent implements OnInit {
 
   obtenerProductos() {
     this.ventaService.obtenerProductos().subscribe( (res: any) => {
-      if (res.success) {
-        this.listaProductos = res.data;
-        console.log(res.data);
-      } else {
-        console.log(res.message);
-      }
+      console.log(res);
+      // if (res.success) {
+      //   this.listaProductos = res.data;
+      //   console.log(res.data);
+      // } else {
+      //   console.log(res.message);
+      // }
     }, (error: any) => {
       console.log(error);
     });
