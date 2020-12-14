@@ -24,6 +24,11 @@ namespace Tienda.Ventas.Infraestructura.EntityConfiguration
                 .IsRequired()
                 .HasColumnType("decimal(20,12)");
 
+            builder.OwnsOne(x => x.Categoria)
+                .Property(x => x.Value)
+                .HasColumnName("categoria");
+
+
             builder.Property(x => x.UrlImagen)
                 .HasColumnName("urlImagen");
         }

@@ -11,6 +11,7 @@ namespace Tienda.Ventas.Applicacion.Features.Producto.InsertProducto
         public string Nombre { get; set; }
         public double Precio { get; set; }
         public string UrlImagen { get; set; }
+        public string Categoria { get; set; }
 
         public InsertProductoCommand() { }
     }

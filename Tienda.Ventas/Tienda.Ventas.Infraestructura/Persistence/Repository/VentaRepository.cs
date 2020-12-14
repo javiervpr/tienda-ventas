@@ -35,7 +35,7 @@ namespace Tienda.Ventas.Infraestructura.Persistence.Repository
                         Cantidad = x.Cantidad.Value,
                         Precio = x.Precio.Value,
                         Subtotal = x.Subtotal.Value,
-                        Producto = new ProductoDTO(x.Producto.Id, x.Producto.Nombre.Value, x.Producto.Precio.Value, x.Producto.UrlImagen)
+                        Producto = new ProductoDTO(x.Producto.Id, x.Producto.Nombre.Value, x.Producto.Precio.Value, x.Producto.UrlImagen, x.Producto.Categoria.Value)
                     })
                     .ToListAsync();
 
