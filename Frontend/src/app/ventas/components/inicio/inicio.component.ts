@@ -9,7 +9,11 @@ import { VentaService } from '../../services/venta.service';
 })
 export class InicioComponent implements OnInit {
 
-  listaProductos = [];
+  listaProductosDeportes = [];
+  listaProductosModa = [];
+  listaProductosOficio = [];
+  listaProductosSalud = [];
+  listaProductosTecnologia = [];
 
   constructor(
     public ventaService: VentaService,
@@ -22,13 +26,11 @@ export class InicioComponent implements OnInit {
 
   obtenerProductos() {
     this.ventaService.obtenerProductos().subscribe( (res: any) => {
-      console.log(res);
-      // if (res.success) {
-      //   this.listaProductos = res.data;
-      //   console.log(res.data);
-      // } else {
-      //   console.log(res.message);
-      // }
+      this.listaProductosModa = res.filter(x => x.categoria === 'Moda');
+      this.listaProductosOficio = res.filter(x => x.categoria === 'Oficio');
+      this.listaProductosSalud = res.filter(x => x.categoria === 'Salud');
+      this.listaProductosDeportes = res.filter(x => x.categoria === 'Deportes');
+      this.listaProductosTecnologia = res.filter(x => x.categoria === 'Tecnología');
     }, (error: any) => {
       console.log(error);
     });

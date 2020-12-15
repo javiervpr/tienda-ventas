@@ -15,13 +15,28 @@ import {animate, state, style, transition, trigger} from '@angular/animations';
 })
 export class CarritoComponent implements OnInit {
 
+  carritoProductos = [];
+
   dataSource = ELEMENT_DATA;
-  columnsToDisplay = ['Nombre', 'Cantidad', 'Precio'];
+  columnsToDisplay = ['Nombre', 'Precio por unidad', 'Cantidad', 'Precio total'];
   expandedElement: PeriodicElement | null;
 
   constructor() { }
 
   ngOnInit() {
+    this.obtenerCarrito();
+    console.log('carrito', this.carritoProductos.length);
+  }
+
+  obtenerCarrito() {
+    this.carritoProductos = JSON.parse(localStorage.getItem('carrito'));
+    if (this.carritoProductos == null) {
+      this.carritoProductos = [];
+    }
+  }
+
+  pagar() {
+    
   }
 
 }

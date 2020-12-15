@@ -14,6 +14,7 @@ import { RegistrarComponent } from './ventas/components/registrar/registrar.comp
 import { InicioComponent } from './ventas/components/inicio/inicio.component';
 import { HistorialComponent } from './ventas/components/historial/historial.component';
 import { PerfilComponent } from './ventas/components/perfil/perfil.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,9 @@ import { PerfilComponent } from './ventas/components/perfil/perfil.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     SharedModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
