@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
+    ".NETCoreApp,Version=v3.0": {
       "Humanizer.Core/2.8.26": {
         "type": "package",
         "compile": {
@@ -744,36 +744,40 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
+    ".NETCoreApp,Version=v3.0": [
       "MediatR >= 9.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\javie\\.nuget\\packages\\": {}
+    "C:\\Users\\HP\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\javie\\Documents\\Universidad\\Taller Web\\Proyecto Final\\tienda-ventas\\Tienda.Ventas\\Tienda.SharedKernel\\Tienda.SharedKernel.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\Desktop\\NUR\\Proyectos\\TiendaVentas\\Tienda.Ventas\\Tienda.SharedKernel\\Tienda.SharedKernel.csproj",
       "projectName": "Tienda.SharedKernel",
-      "projectPath": "C:\\Users\\javie\\Documents\\Universidad\\Taller Web\\Proyecto Final\\tienda-ventas\\Tienda.Ventas\\Tienda.SharedKernel\\Tienda.SharedKernel.csproj",
-      "packagesPath": "C:\\Users\\javie\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\javie\\Documents\\Universidad\\Taller Web\\Proyecto Final\\tienda-ventas\\Tienda.Ventas\\Tienda.SharedKernel\\obj\\",
+      "projectPath": "C:\\Users\\HP\\Desktop\\NUR\\Proyectos\\TiendaVentas\\Tienda.Ventas\\Tienda.SharedKernel\\Tienda.SharedKernel.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\HP\\Desktop\\NUR\\Proyectos\\TiendaVentas\\Tienda.Ventas\\Tienda.SharedKernel\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\javie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.1"
+        "netcoreapp3.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "netcoreapp3.0": {
           "projectReferences": {}
         }
       },
@@ -784,7 +788,7 @@
       }
     },
     "frameworks": {
-      "netcoreapp3.1": {
+      "netcoreapp3.0": {
         "dependencies": {
           "MediatR": {
             "target": "Package",
@@ -812,7 +816,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

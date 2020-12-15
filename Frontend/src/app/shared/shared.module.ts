@@ -9,7 +9,10 @@ import {
   MatTabsModule,
   MatDialogModule,
   MatTableModule,
-  MatRippleModule
+  MatRippleModule,
+  MatMenuModule,
+  MatFormFieldModule,
+  MatInputModule
 } from '@angular/material';
 
 @NgModule({
@@ -24,7 +27,10 @@ import {
     MatTabsModule,
     MatDialogModule,
     MatTableModule,
-    MatRippleModule
+    MatRippleModule,
+    MatMenuModule,
+    MatFormFieldModule,
+    MatInputModule
   ],
   exports: [
     MatToolbarModule,
@@ -35,7 +41,10 @@ import {
     MatTabsModule,
     MatDialogModule,
     MatTableModule,
-    MatRippleModule
+    MatRippleModule,
+    MatMenuModule,
+    MatFormFieldModule,
+    MatInputModule
   ]
 })
 export class SharedModule { }

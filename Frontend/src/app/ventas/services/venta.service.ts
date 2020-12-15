@@ -16,7 +16,7 @@ export class VentaService {
   ) { }
 
   obtenerProductos() {
-    const url = URL_API + 'product/products';
+    const url = URL_API + 'api/productos';
     return this.http.get(url, this.headers);
   }
 }

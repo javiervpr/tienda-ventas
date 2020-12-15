@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material';
-import { VentaService } from './ventas/services/venta.service';
+import { Router } from '@angular/router';
 import { CarritoComponent } from './ventas/components/carrito/carrito.component';
+import { VentaService } from './ventas/services/venta.service';
 
 @Component({
   selector: 'app-root',
@@ -10,33 +11,30 @@ import { CarritoComponent } from './ventas/components/carrito/carrito.component'
 })
 export class AppComponent implements OnInit {
 
-  listaProductos = [];
-
   constructor(
     public ventaService: VentaService,
-    public dialog: MatDialog
+    public dialog: MatDialog,
+    private router: Router,
   ) {
 
   }
 
   ngOnInit(): void {
-    this.obtenerProductos();
-  }
-
-  obtenerProductos() {
-    this.ventaService.obtenerProductos().subscribe( (res: any) => {
-      if (res.success) {
-        this.listaProductos = res.data;
-        console.log(res.data);
-      } else {
-        console.log(res.message);
-      }
-    }, (error: any) => {
-      console.log(error);
-    });
   }
 
   abrirCarrito() {
     const dialogRef = this.dialog.open(CarritoComponent);
+  }
+
+  historialDeCompras() {
+    this.router.navigate(['/historial']);
+  }
+
+  cerrarSesion() {
+    this.router.navigate(['/login']);
+  }
+
+  editarPerfil() {
+    this.router.navigate(['/perfil']);
   }
 }

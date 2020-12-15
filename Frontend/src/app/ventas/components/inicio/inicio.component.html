@@ -1,0 +1,57 @@
+<mat-tab-group mat-align-tabs="center">
+    <mat-tab label="Salud" class="tab-content">
+      <div class="products-container">
+        <app-product-card *ngFor="let producto of listaProductosSalud"
+          [id]="producto.id"
+          [nombre]="producto.nombre"
+          [imagen]="producto.urlImagen"
+          [categoria]="producto.categoria"
+          [precio]="producto.precio">
+        </app-product-card>
+      </div>
+    </mat-tab>
+    <mat-tab label="Deportes">
+      <div class="products-container">
+        <app-product-card *ngFor="let producto of listaProductosDeportes"
+          [id]="producto.id"
+          [nombre]="producto.nombre"
+          [imagen]="producto.urlImagen"
+          [categoria]="producto.categoria"
+          [precio]="producto.precio">
+        </app-product-card>
+      </div>
+    </mat-tab>
+    <mat-tab label="Tecnología">
+      <div class="products-container">
+        <app-product-card *ngFor="let producto of listaProductosTecnologia"
+          [id]="producto.id"
+          [nombre]="producto.nombre"
+          [imagen]="producto.urlImagen"
+          [categoria]="producto.categoria"
+          [precio]="producto.precio">
+        </app-product-card>
+      </div>
+    </mat-tab>
+    <mat-tab label="Moda">
+      <div class="products-container">
+        <app-product-card *ngFor="let producto of listaProductosModa"
+          [id]="producto.id"
+          [nombre]="producto.nombre"
+          [imagen]="producto.urlImagen"
+          [categoria]="producto.categoria"
+          [precio]="producto.precio">
+        </app-product-card>
+      </div>
+    </mat-tab>
+    <mat-tab label="Oficio">
+      <div class="products-container">
+        <app-product-card *ngFor="let producto of listaProductosOficio"
+          [id]="producto.id"
+          [nombre]="producto.nombre"
+          [imagen]="producto.urlImagen"
+          [categoria]="producto.categoria"
+          [precio]="producto.precio">
+        </app-product-card>
+      </div>
+    </mat-tab>
+  </mat-tab-group>

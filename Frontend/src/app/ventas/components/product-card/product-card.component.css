@@ -4,7 +4,28 @@
   margin: 15px;
 }
 
+.title {
+  font-size: 1em;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 170px;
+}
+
 .card-actions {
   display: flex;
   justify-content: center;
+}
+
+.precio {
+  text-align: center;
+  background-color: #9eb0ff7c;
+  border-radius: 3px;
+}
+
+.clickable {
+  object-fit: cover;
+  width: 232px;
+  height: 232px;
+  cursor: pointer;
 }
