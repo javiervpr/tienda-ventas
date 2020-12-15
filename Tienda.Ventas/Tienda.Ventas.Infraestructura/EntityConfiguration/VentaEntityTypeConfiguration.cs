@@ -29,6 +29,7 @@ namespace Tienda.Ventas.Infraestructura.EntityConfiguration
                 .HasColumnName("fechaAnulacion");
 
             builder.Ignore(x => x.Factura);
+            builder.Ignore(x => x.DetalleVenta);
             /*
                 public Cliente Cliente { get; private set; }
             */

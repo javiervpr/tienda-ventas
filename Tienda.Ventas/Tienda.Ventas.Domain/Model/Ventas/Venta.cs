@@ -16,6 +16,14 @@ namespace Tienda.Ventas.Domain.Model.Ventas
         public DateTime? FechaFinalizacion { get; private set; }
         public DateTime? FechaAnulacion { get; private set; }
         public Factura Factura { get; private set; }
+        private List<DetalleVenta> _detalleVenta;
+        public ImmutableList<DetalleVenta> DetalleVenta
+        {
+            get
+            {
+                return _detalleVenta.ToImmutableList();
+            }
+        }
 
         protected Venta() { }
 
@@ -27,7 +35,10 @@ namespace Tienda.Ventas.Domain.Model.Ventas
             Cliente = cliente;
             Factura = new Factura(razonSocial,nit, this);
         }
-
+        public void AgregarDetalleVenta(List<DetalleVenta> detalleVenta)
+        {
+            _detalleVenta = detalleVenta;
+        }
         public void AnularVenta()
         {
             CheckRule(new ChangeVentaStatusRule(EstadoVenta, EstadoVenta.Anulada));
