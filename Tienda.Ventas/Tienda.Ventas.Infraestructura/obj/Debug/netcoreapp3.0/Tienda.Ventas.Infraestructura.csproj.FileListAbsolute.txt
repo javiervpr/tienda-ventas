@@ -15,3 +15,22 @@ C:\Users\HP\Desktop\NUR\Proyectos\TiendaVentas\Tienda.Ventas\Tienda.Ventas.Infra
 C:\Users\HP\Desktop\NUR\Proyectos\TiendaVentas\Tienda.Ventas\Tienda.Ventas.Infraestructura\obj\Debug\netcoreapp3.0\Tienda.Ventas.Infraestructura.csproj.CopyComplete
 C:\Users\HP\Desktop\NUR\Proyectos\TiendaVentas\Tienda.Ventas\Tienda.Ventas.Infraestructura\obj\Debug\netcoreapp3.0\Tienda.Ventas.Infraestructura.dll
 C:\Users\HP\Desktop\NUR\Proyectos\TiendaVentas\Tienda.Ventas\Tienda.Ventas.Infraestructura\obj\Debug\netcoreapp3.0\Tienda.Ventas.Infraestructura.pdb
+C:\Users\javie\Documents\Universidad\Taller Web\Proyecto Final\tienda-ventas\Tienda.Ventas\Tienda.Ventas.Infraestructura\bin\Debug\netcoreapp3.0\Tienda.Ventas.Infraestructura.deps.json
+C:\Users\javie\Documents\Universidad\Taller Web\Proyecto Final\tienda-ventas\Tienda.Ventas\Tienda.Ventas.Infraestructura\bin\Debug\netcoreapp3.0\Tienda.Ventas.Infraestructura.runtimeconfig.json
+C:\Users\javie\Documents\Universidad\Taller Web\Proyecto Final\tienda-ventas\Tienda.Ventas\Tienda.Ventas.Infraestructura\bin\Debug\netcoreapp3.0\Tienda.Ventas.Infraestructura.runtimeconfig.dev.json
+C:\Users\javie\Documents\Universidad\Taller Web\Proyecto Final\tienda-ventas\Tienda.Ventas\Tienda.Ventas.Infraestructura\bin\Debug\netcoreapp3.0\Tienda.Ventas.Infraestructura.dll
+C:\Users\javie\Documents\Universidad\Taller Web\Proyecto Final\tienda-ventas\Tienda.Ventas\Tienda.Ventas.Infraestructura\bin\Debug\netcoreapp3.0\Tienda.Ventas.Infraestructura.pdb
+C:\Users\javie\Documents\Universidad\Taller Web\Proyecto Final\tienda-ventas\Tienda.Ventas\Tienda.Ventas.Infraestructura\bin\Debug\netcoreapp3.0\Tienda.SharedKernel.dll
+C:\Users\javie\Documents\Universidad\Taller Web\Proyecto Final\tienda-ventas\Tienda.Ventas\Tienda.Ventas.Infraestructura\bin\Debug\netcoreapp3.0\Tienda.Ventas.Applicacion.dll
+C:\Users\javie\Documents\Universidad\Taller Web\Proyecto Final\tienda-ventas\Tienda.Ventas\Tienda.Ventas.Infraestructura\bin\Debug\netcoreapp3.0\Tienda.Ventas.Domain.dll
+C:\Users\javie\Documents\Universidad\Taller Web\Proyecto Final\tienda-ventas\Tienda.Ventas\Tienda.Ventas.Infraestructura\bin\Debug\netcoreapp3.0\Tienda.Ventas.Applicacion.pdb
+C:\Users\javie\Documents\Universidad\Taller Web\Proyecto Final\tienda-ventas\Tienda.Ventas\Tienda.Ventas.Infraestructura\bin\Debug\netcoreapp3.0\Tienda.Ventas.Domain.pdb
+C:\Users\javie\Documents\Universidad\Taller Web\Proyecto Final\tienda-ventas\Tienda.Ventas\Tienda.Ventas.Infraestructura\bin\Debug\netcoreapp3.0\Tienda.SharedKernel.pdb
+C:\Users\javie\Documents\Universidad\Taller Web\Proyecto Final\tienda-ventas\Tienda.Ventas\Tienda.Ventas.Infraestructura\obj\Debug\netcoreapp3.0\Tienda.Ventas.Infraestructura.csprojAssemblyReference.cache
+C:\Users\javie\Documents\Universidad\Taller Web\Proyecto Final\tienda-ventas\Tienda.Ventas\Tienda.Ventas.Infraestructura\obj\Debug\netcoreapp3.0\Tienda.Ventas.Infraestructura.csproj.CoreCompileInputs.cache
+C:\Users\javie\Documents\Universidad\Taller Web\Proyecto Final\tienda-ventas\Tienda.Ventas\Tienda.Ventas.Infraestructura\obj\Debug\netcoreapp3.0\Tienda.Ventas.Infraestructura.AssemblyInfoInputs.cache
+C:\Users\javie\Documents\Universidad\Taller Web\Proyecto Final\tienda-ventas\Tienda.Ventas\Tienda.Ventas.Infraestructura\obj\Debug\netcoreapp3.0\Tienda.Ventas.Infraestructura.AssemblyInfo.cs
+C:\Users\javie\Documents\Universidad\Taller Web\Proyecto Final\tienda-ventas\Tienda.Ventas\Tienda.Ventas.Infraestructura\obj\Debug\netcoreapp3.0\Tienda.Ventas.Infraestructura.csproj.CopyComplete
+C:\Users\javie\Documents\Universidad\Taller Web\Proyecto Final\tienda-ventas\Tienda.Ventas\Tienda.Ventas.Infraestructura\obj\Debug\netcoreapp3.0\Tienda.Ventas.Infraestructura.dll
+C:\Users\javie\Documents\Universidad\Taller Web\Proyecto Final\tienda-ventas\Tienda.Ventas\Tienda.Ventas.Infraestructura\obj\Debug\netcoreapp3.0\Tienda.Ventas.Infraestructura.pdb
+C:\Users\javie\Documents\Universidad\Taller Web\Proyecto Final\tienda-ventas\Tienda.Ventas\Tienda.Ventas.Infraestructura\obj\Debug\netcoreapp3.0\Tienda.Ventas.Infraestructura.genruntimeconfig.cache
