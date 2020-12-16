@@ -51,7 +51,6 @@ export class PagoDetalleComponent implements OnInit {
       listaProductos.push(aux);
     });
     this.ventaService.registrarVenta(cliente, razonSocial, nit, listaProductos).subscribe( (res: any) => {
-    }, (response: any) => {
       const carritoVacio = [];
       localStorage.setItem('carrito', JSON.stringify(carritoVacio));
       this.toastr.success('Compra realizada con éxito', null, {
@@ -60,6 +59,11 @@ export class PagoDetalleComponent implements OnInit {
       });
       this.dialogRef.close();
       this.router.navigate(['/']);
+    }, (error: any) => {
+      this.toastr.error('Ocurrió un error al realizar la venta', null, {
+        progressBar: true,
+        timeOut: 3000
+      });
     });
   }
 

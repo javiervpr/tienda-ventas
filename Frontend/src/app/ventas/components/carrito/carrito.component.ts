@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import {animate, state, style, transition, trigger} from '@angular/animations';
-import {MatDialog} from '@angular/material/dialog';
+import { MatDialog } from '@angular/material/dialog';
 import { PagoDetalleComponent } from '../pago-detalle/pago-detalle.component';
+import { ToastrService } from 'ngx-toastr';
 
 @Component({
   selector: 'app-carrito',
@@ -24,7 +25,8 @@ export class CarritoComponent implements OnInit {
   expandedElement: PeriodicElement | null;
 
   constructor(
-    public dialog: MatDialog
+    public dialog: MatDialog,
+    private toastr: ToastrService,
   ) { }
 
   ngOnInit() {
@@ -40,7 +42,16 @@ export class CarritoComponent implements OnInit {
   }
 
   pagar() {
-    const dialogRef = this.dialog.open(PagoDetalleComponent);
+    const loged = localStorage.getItem('loged');
+    console.log(loged);
+    if (loged === 'true') {
+      const dialogRef = this.dialog.open(PagoDetalleComponent);
+    } else {
+      this.toastr.warning('Debe iniciar sesión', null, {
+        progressBar: true,
+        timeOut: 3000
+      });
+    }
   }
 
   vaciarCarrito() {

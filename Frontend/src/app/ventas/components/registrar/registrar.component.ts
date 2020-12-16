@@ -1,3 +1,4 @@
+import { Router } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
 import { Validators, FormControl } from '@angular/forms';
 import { AuthService } from '../../services/auth.service';
@@ -18,7 +19,8 @@ export class RegistrarComponent implements OnInit {
   nombres = new FormControl('', [Validators.required, Validators.minLength(4), Validators.maxLength(100)]);
   apellidos = new FormControl('', [Validators.required, Validators.minLength(4), Validators.maxLength(100)]);;
   constructor(
-    private authService: AuthService
+    private authService: AuthService,
+    public router: Router
   ) { }
 
   ngOnInit() {
@@ -30,8 +32,13 @@ export class RegistrarComponent implements OnInit {
     //   return;
     // }
     this.authService.registrar(this.nombres.value, this.apellidos.value, this.email.value, this.password.value)
-      .subscribe(result => {
-        console.log(result);
+      .subscribe( (respuesta: any) => {
+        localStorage.setItem('userID', respuesta.id);
+        localStorage.setItem('nombre', respuesta.nomres + ' - ' + respuesta.apellidos);
+        localStorage.setItem('loged', 'true');
+        this.router.navigate(['/']).then(() => {
+        window.location.reload();
+      });
       });
   }
 }

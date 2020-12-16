@@ -29,7 +29,6 @@ export class LoginComponent implements OnInit {
 
   login() {
     this.authService.login(this.formLogin.value.nombre_usuario, this.formLogin.value.contrasenha).subscribe((respuesta: any) => {
-      console.log(respuesta);
       localStorage.setItem('userID', respuesta.id);
       localStorage.setItem('nombre', respuesta.nomres + ' - ' + respuesta.apellidos);
       localStorage.setItem('loged', 'true');

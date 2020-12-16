@@ -36,6 +36,6 @@ export class VentaService {
       detalleVenta: listaProductos
     };
     console.log(body);
-    return this.http.post(url, body);
+    return this.http.post(url, body, {responseType: 'text'});
   }
 }
