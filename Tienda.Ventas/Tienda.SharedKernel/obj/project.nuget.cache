@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "06yseMFkoeDSLJ5ilqBba/ihOZq2IdB6tIDSEj6a28i9yc+t9oRvMLQsUolp/WABNKd5AqcefgxcvVr4Cx2g3Q==",
+  "dgSpecHash": "EyHT/ehiiOxhcu08x4wYVxzVKmQeIu/b/NCNB178/sxIO9OeCEIT9NEa1kzvea7+rBBjeSIGCFczglbqI5/JhA==",
   "success": true,
   "projectFilePath": "C:\\Users\\javie\\Documents\\Universidad\\Taller Web\\Proyecto Final\\tienda-ventas\\Tienda.Ventas\\Tienda.SharedKernel\\Tienda.SharedKernel.csproj",
   "expectedPackageFiles": [
@@ -23,7 +23,10 @@
     "C:\\Users\\javie\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\javie\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
     "C:\\Users\\javie\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
-    "C:\\Users\\javie\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512"
+    "C:\\Users\\javie\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512",
+    "C:\\Users\\javie\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "C:\\Users\\javie\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\javie\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512"
   ],
   "logs": []
 }

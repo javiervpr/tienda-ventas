@@ -7,3 +7,14 @@ C:\Users\HP\Desktop\NUR\Proyectos\TiendaVentas\Tienda.Ventas\Tienda.SharedKernel
 C:\Users\HP\Desktop\NUR\Proyectos\TiendaVentas\Tienda.Ventas\Tienda.SharedKernel\obj\Debug\netcoreapp3.0\Tienda.SharedKernel.AssemblyInfo.cs
 C:\Users\HP\Desktop\NUR\Proyectos\TiendaVentas\Tienda.Ventas\Tienda.SharedKernel\obj\Debug\netcoreapp3.0\Tienda.SharedKernel.dll
 C:\Users\HP\Desktop\NUR\Proyectos\TiendaVentas\Tienda.Ventas\Tienda.SharedKernel\obj\Debug\netcoreapp3.0\Tienda.SharedKernel.pdb
+C:\Users\javie\Documents\Universidad\Taller Web\Proyecto Final\tienda-ventas\Tienda.Ventas\Tienda.SharedKernel\bin\Debug\netcoreapp3.0\Tienda.SharedKernel.deps.json
+C:\Users\javie\Documents\Universidad\Taller Web\Proyecto Final\tienda-ventas\Tienda.Ventas\Tienda.SharedKernel\bin\Debug\netcoreapp3.0\Tienda.SharedKernel.runtimeconfig.json
+C:\Users\javie\Documents\Universidad\Taller Web\Proyecto Final\tienda-ventas\Tienda.Ventas\Tienda.SharedKernel\bin\Debug\netcoreapp3.0\Tienda.SharedKernel.runtimeconfig.dev.json
+C:\Users\javie\Documents\Universidad\Taller Web\Proyecto Final\tienda-ventas\Tienda.Ventas\Tienda.SharedKernel\bin\Debug\netcoreapp3.0\Tienda.SharedKernel.dll
+C:\Users\javie\Documents\Universidad\Taller Web\Proyecto Final\tienda-ventas\Tienda.Ventas\Tienda.SharedKernel\bin\Debug\netcoreapp3.0\Tienda.SharedKernel.pdb
+C:\Users\javie\Documents\Universidad\Taller Web\Proyecto Final\tienda-ventas\Tienda.Ventas\Tienda.SharedKernel\obj\Debug\netcoreapp3.0\Tienda.SharedKernel.csproj.CoreCompileInputs.cache
+C:\Users\javie\Documents\Universidad\Taller Web\Proyecto Final\tienda-ventas\Tienda.Ventas\Tienda.SharedKernel\obj\Debug\netcoreapp3.0\Tienda.SharedKernel.AssemblyInfoInputs.cache
+C:\Users\javie\Documents\Universidad\Taller Web\Proyecto Final\tienda-ventas\Tienda.Ventas\Tienda.SharedKernel\obj\Debug\netcoreapp3.0\Tienda.SharedKernel.AssemblyInfo.cs
+C:\Users\javie\Documents\Universidad\Taller Web\Proyecto Final\tienda-ventas\Tienda.Ventas\Tienda.SharedKernel\obj\Debug\netcoreapp3.0\Tienda.SharedKernel.dll
+C:\Users\javie\Documents\Universidad\Taller Web\Proyecto Final\tienda-ventas\Tienda.Ventas\Tienda.SharedKernel\obj\Debug\netcoreapp3.0\Tienda.SharedKernel.pdb
+C:\Users\javie\Documents\Universidad\Taller Web\Proyecto Final\tienda-ventas\Tienda.Ventas\Tienda.SharedKernel\obj\Debug\netcoreapp3.0\Tienda.SharedKernel.genruntimeconfig.cache

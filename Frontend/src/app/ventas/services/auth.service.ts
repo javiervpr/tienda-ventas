@@ -24,4 +24,15 @@ export class AuthService {
     console.log(body);
     return this.http.post(url, body, this.headers);
   }
+
+  registrar(nombres, apellidos, email, password) {
+    const url = URL_API + 'api/clientes';
+    const body = {
+      nombres,
+      apellidos,
+      email,
+      password
+    };
+    return this.http.post(url, body, this.headers);
+  }
 }

@@ -1,41 +1,46 @@
 <mat-card class="register-card">
     <p style="text-align: center;">
         <mat-form-field appearance="outline">
+            <mat-label>Nombres</mat-label>
+            <input matInput placeholder="Nombres" [formControl]="nombres">
+            <!-- <mat-hint>Hint</mat-hint> -->
+        </mat-form-field>
+    </p>
+    <p style="text-align: center;">
+        <mat-form-field appearance="outline">
+            <mat-label>Apellidos</mat-label>
+            <input matInput placeholder="Apellidos" [formControl]="apellidos">
+            <!-- <mat-hint>Hint</mat-hint> -->
+        </mat-form-field>
+    </p>
+    <p style="text-align: center;">
+        <mat-form-field appearance="outline">
             <mat-label>Correo</mat-label>
-            <input matInput placeholder="example@example.com">
-            <mat-hint>Hint</mat-hint>
+            <input  matInput placeholder="example@example.com"
+                    [formControl]="email">
+            <!-- <mat-hint>Hint</mat-hint> -->
         </mat-form-field>
     </p>
     <p style="text-align: center;">
         <mat-form-field appearance="outline">
             <mat-label>Contraseña</mat-label>
-            <input matInput placeholder="***************">
-            <mat-hint>Hint</mat-hint>
+            <input matInput placeholder="***************" 
+                    type="password"
+                    [formControl]="password">
+            <!-- <mat-hint>Hint</mat-hint> -->
         </mat-form-field>
     </p>
     <p style="text-align: center;">
         <mat-form-field appearance="outline">
-            <mat-label>Contraseña</mat-label>
-            <input matInput placeholder="***************">
-            <mat-hint>Hint</mat-hint>
+            <mat-label>Confirmar contraseña</mat-label>
+            <input matInput placeholder="***************"
+                    type="password"
+                    [formControl]="confirmPassword">
+            <!-- <mat-hint>Hint</mat-hint> -->
         </mat-form-field>
     </p>
     <p style="text-align: center;">
-        <mat-form-field appearance="outline">
-            <mat-label>Contraseña</mat-label>
-            <input matInput placeholder="***************">
-            <mat-hint>Hint</mat-hint>
-        </mat-form-field>
-    </p>
-    <p style="text-align: center;">
-        <mat-form-field appearance="outline">
-            <mat-label>Contraseña</mat-label>
-            <input matInput placeholder="***************">
-            <mat-hint>Hint</mat-hint>
-        </mat-form-field>
-    </p>
-    <p style="text-align: center;">
-        <button mat-flat-button color="primary">Registrar</button>
+        <button mat-flat-button color="primary" (click)="enviar()">Registrar</button>
     </p>
     <br>
     <p>

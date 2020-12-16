@@ -11,3 +11,17 @@ C:\Users\HP\Desktop\NUR\Proyectos\TiendaVentas\Tienda.Ventas\Tienda.Ventas.Appli
 C:\Users\HP\Desktop\NUR\Proyectos\TiendaVentas\Tienda.Ventas\Tienda.Ventas.Applicacion\obj\Debug\netcoreapp3.0\Tienda.Ventas.Applicacion.csproj.CopyComplete
 C:\Users\HP\Desktop\NUR\Proyectos\TiendaVentas\Tienda.Ventas\Tienda.Ventas.Applicacion\obj\Debug\netcoreapp3.0\Tienda.Ventas.Applicacion.dll
 C:\Users\HP\Desktop\NUR\Proyectos\TiendaVentas\Tienda.Ventas\Tienda.Ventas.Applicacion\obj\Debug\netcoreapp3.0\Tienda.Ventas.Applicacion.pdb
+C:\Users\javie\Documents\Universidad\Taller Web\Proyecto Final\tienda-ventas\Tienda.Ventas\Tienda.Ventas.Applicacion\bin\Debug\netcoreapp3.0\Tienda.Ventas.Applicacion.deps.json
+C:\Users\javie\Documents\Universidad\Taller Web\Proyecto Final\tienda-ventas\Tienda.Ventas\Tienda.Ventas.Applicacion\bin\Debug\netcoreapp3.0\Tienda.Ventas.Applicacion.dll
+C:\Users\javie\Documents\Universidad\Taller Web\Proyecto Final\tienda-ventas\Tienda.Ventas\Tienda.Ventas.Applicacion\bin\Debug\netcoreapp3.0\Tienda.Ventas.Applicacion.pdb
+C:\Users\javie\Documents\Universidad\Taller Web\Proyecto Final\tienda-ventas\Tienda.Ventas\Tienda.Ventas.Applicacion\bin\Debug\netcoreapp3.0\Tienda.SharedKernel.dll
+C:\Users\javie\Documents\Universidad\Taller Web\Proyecto Final\tienda-ventas\Tienda.Ventas\Tienda.Ventas.Applicacion\bin\Debug\netcoreapp3.0\Tienda.Ventas.Domain.dll
+C:\Users\javie\Documents\Universidad\Taller Web\Proyecto Final\tienda-ventas\Tienda.Ventas\Tienda.Ventas.Applicacion\bin\Debug\netcoreapp3.0\Tienda.Ventas.Domain.pdb
+C:\Users\javie\Documents\Universidad\Taller Web\Proyecto Final\tienda-ventas\Tienda.Ventas\Tienda.Ventas.Applicacion\bin\Debug\netcoreapp3.0\Tienda.SharedKernel.pdb
+C:\Users\javie\Documents\Universidad\Taller Web\Proyecto Final\tienda-ventas\Tienda.Ventas\Tienda.Ventas.Applicacion\obj\Debug\netcoreapp3.0\Tienda.Ventas.Applicacion.csprojAssemblyReference.cache
+C:\Users\javie\Documents\Universidad\Taller Web\Proyecto Final\tienda-ventas\Tienda.Ventas\Tienda.Ventas.Applicacion\obj\Debug\netcoreapp3.0\Tienda.Ventas.Applicacion.csproj.CoreCompileInputs.cache
+C:\Users\javie\Documents\Universidad\Taller Web\Proyecto Final\tienda-ventas\Tienda.Ventas\Tienda.Ventas.Applicacion\obj\Debug\netcoreapp3.0\Tienda.Ventas.Applicacion.AssemblyInfoInputs.cache
+C:\Users\javie\Documents\Universidad\Taller Web\Proyecto Final\tienda-ventas\Tienda.Ventas\Tienda.Ventas.Applicacion\obj\Debug\netcoreapp3.0\Tienda.Ventas.Applicacion.AssemblyInfo.cs
+C:\Users\javie\Documents\Universidad\Taller Web\Proyecto Final\tienda-ventas\Tienda.Ventas\Tienda.Ventas.Applicacion\obj\Debug\netcoreapp3.0\Tienda.Ventas.Applicacion.csproj.CopyComplete
+C:\Users\javie\Documents\Universidad\Taller Web\Proyecto Final\tienda-ventas\Tienda.Ventas\Tienda.Ventas.Applicacion\obj\Debug\netcoreapp3.0\Tienda.Ventas.Applicacion.dll
+C:\Users\javie\Documents\Universidad\Taller Web\Proyecto Final\tienda-ventas\Tienda.Ventas\Tienda.Ventas.Applicacion\obj\Debug\netcoreapp3.0\Tienda.Ventas.Applicacion.pdb

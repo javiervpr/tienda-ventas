@@ -9,10 +9,14 @@ namespace Tienda.Ventas.Applicacion.Persistence.Repository
 {
     public interface IVentaRepository
     {
-        Task Insert(VentaDTO venta);
+        Task Insert(Venta venta);
 
-        Task<List<VentaDTO>> GetHistorialVentas(Guid clienteID);
-
+        Task<List<Venta>> GetVentasByCliente (Guid clienteID);
+        Task<List<DetalleVenta>> GetDetalleVenta(Guid ventaID);
+        Task<Factura> GetFacturaForVenta(Guid ventaID);
         Task UpdateState(Guid ventaID, EstadoVenta newEstado);
+
+        Task<Cliente> GetClienteForVenta(Guid clienteID);
+        Task<Producto> GetProductoForVenta(Guid productoID);
     }
 }

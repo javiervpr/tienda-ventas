@@ -38,8 +38,8 @@ namespace Tienda.Ventas.WebApp.Controllers
             try
             {
                 _logger.LogInformation("Registrando cliente con los parametros", registroClienteCommand);
-                await _mediator.Send(registroClienteCommand);
-                return Ok("success");
+                ClienteDTO clienteDTO = await _mediator.Send(registroClienteCommand);
+                return Ok(clienteDTO);
             }
             catch (Exception ex)
             {
