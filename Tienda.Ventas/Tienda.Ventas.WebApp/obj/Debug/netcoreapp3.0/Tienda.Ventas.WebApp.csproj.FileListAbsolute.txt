@@ -94,10 +94,10 @@ C:\Users\HP\Desktop\NUR\Proyectos\TiendaVentas\Tienda.Ventas\Tienda.Ventas.WebAp
 C:\Users\HP\Desktop\NUR\Proyectos\TiendaVentas\Tienda.Ventas\Tienda.Ventas.WebApp\obj\Debug\netcoreapp3.0\Tienda.Ventas.WebApp.csprojAssemblyReference.cache
 C:\Users\HP\Desktop\NUR\Proyectos\TiendaVentas\Tienda.Ventas\Tienda.Ventas.WebApp\obj\Debug\netcoreapp3.0\staticwebassets\Tienda.Ventas.WebApp.StaticWebAssets.Manifest.cache
 C:\Users\HP\Desktop\NUR\Proyectos\TiendaVentas\Tienda.Ventas\Tienda.Ventas.WebApp\obj\Debug\netcoreapp3.0\staticwebassets\Tienda.Ventas.WebApp.StaticWebAssets.xml
+C:\Users\HP\Desktop\NUR\Proyectos\TiendaVentas\Tienda.Ventas\Tienda.Ventas.WebApp\obj\Debug\netcoreapp3.0\Tienda.Ventas.WebApp.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\HP\Desktop\NUR\Proyectos\TiendaVentas\Tienda.Ventas\Tienda.Ventas.WebApp\obj\Debug\netcoreapp3.0\Tienda.Ventas.WebApp.AssemblyInfoInputs.cache
 C:\Users\HP\Desktop\NUR\Proyectos\TiendaVentas\Tienda.Ventas\Tienda.Ventas.WebApp\obj\Debug\netcoreapp3.0\Tienda.Ventas.WebApp.AssemblyInfo.cs
 C:\Users\HP\Desktop\NUR\Proyectos\TiendaVentas\Tienda.Ventas\Tienda.Ventas.WebApp\obj\Debug\netcoreapp3.0\Tienda.Ventas.WebApp.RazorTargetAssemblyInfo.cache
 C:\Users\HP\Desktop\NUR\Proyectos\TiendaVentas\Tienda.Ventas\Tienda.Ventas.WebApp\obj\Debug\netcoreapp3.0\Tienda.Ventas.WebApp.csproj.CopyComplete
 C:\Users\HP\Desktop\NUR\Proyectos\TiendaVentas\Tienda.Ventas\Tienda.Ventas.WebApp\obj\Debug\netcoreapp3.0\Tienda.Ventas.WebApp.dll
 C:\Users\HP\Desktop\NUR\Proyectos\TiendaVentas\Tienda.Ventas\Tienda.Ventas.WebApp\obj\Debug\netcoreapp3.0\Tienda.Ventas.WebApp.pdb
-C:\Users\HP\Desktop\NUR\Proyectos\TiendaVentas\Tienda.Ventas\Tienda.Ventas.WebApp\obj\Debug\netcoreapp3.0\Tienda.Ventas.WebApp.MvcApplicationPartsAssemblyInfo.cache

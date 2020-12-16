@@ -15,7 +15,6 @@ namespace Tienda.Ventas.WebApp.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [EnableCors("_myAllowSpecificOrigins")]
     public class ClientesController : ControllerBase
     {
         private readonly IMediator _mediator;

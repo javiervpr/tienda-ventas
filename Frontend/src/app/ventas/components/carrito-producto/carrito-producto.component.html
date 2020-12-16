@@ -1,0 +1,20 @@
+
+    <td>{{ nombre }}</td>
+    <td>{{ precio }} $</td>
+    <td>
+      <button mat-icon-button color="warn" aria-label="Example icon button with a menu icon" (click)="disminuirCantidad()">
+        <mat-icon>remove_circle_outline</mat-icon>
+      </button>
+      {{ cantidad }}
+      <button mat-icon-button color="primary" aria-label="Example icon button with a menu icon" (click)="aumentarCantidad()">
+        <mat-icon>add_circle_outline</mat-icon>
+      </button>
+    </td>
+    <td>{{ precioTotal }} $</td>
+    <td>
+      <div class="example-button-container">
+        <button mat-mini-fab color="warn" aria-label="Example icon button with a filter list icon" (click)="removerProducto()">
+          <mat-icon>clear</mat-icon>
+        </button>
+      </div>
+    </td>

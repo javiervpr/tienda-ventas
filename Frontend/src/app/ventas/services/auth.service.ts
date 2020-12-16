@@ -21,6 +21,7 @@ export class AuthService {
       email: correo,
       password: contrasenha
     };
-    return this.http.post(url, this.headers);
+    console.log(body);
+    return this.http.post(url, body, this.headers);
   }
 }

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { VentaService } from '../../services/venta.service';
 
 @Component({
   selector: 'app-historial',
@@ -7,9 +8,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HistorialComponent implements OnInit {
 
-  constructor() { }
+  historial = [];
+
+  constructor(
+    public ventaService: VentaService
+  ) { }
 
   ngOnInit() {
+    this.obtenerHistorial();
+  }
+
+  obtenerHistorial() {
+    this.ventaService.obtenerHistorialVentas(localStorage.getItem('userID')).subscribe((res: any) => {
+      this.historial = res;
+    });
   }
 
 }

@@ -1,1 +1,33 @@
-<p>historial works!</p>
+<div class="historial-container">
+    <mat-card class="venta-card" *ngFor="let venta of historial">
+        <p><strong>Detalles de la factura</strong></p>
+        <p>
+            <strong> Nombre: </strong> {{ venta.factura.razonSocial }} &nbsp;&nbsp;&nbsp;&nbsp;
+            <strong> NIT: </strong> {{ venta.factura.nit }} &nbsp;&nbsp;&nbsp;&nbsp;
+            <strong> Fecha: </strong> {{ venta.factura.fechaEmision }}
+        </p>
+        <br>
+        <p><strong>Detalles de la venta</strong></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Cantidad</th>
+                    <th>Precio unitario</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let producto of venta.detalleVenta">
+                    <td>{{ producto.producto.nombre }}</td>
+                    <td>{{ producto.cantidad }}</td>
+                    <td>{{ producto.precio }} $</td>
+                    <td>{{ producto.subtotal }} $</td>
+                </tr>
+            </tbody>
+        </table>
+        <mat-card-actions align="end">
+            <button mat-flat-button color="warn" type="button" (click)="anular()">Anular</button>
+          </mat-card-actions>
+    </mat-card>
+</div>

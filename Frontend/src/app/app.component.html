@@ -3,30 +3,35 @@
     <mat-toolbar-row>
       <a href="/" class="undecorated"><span class="app-name">Tienda App</span></a>
       <span class="example-spacer"></span>
-      <button mat-icon-button matTooltip="Abrir carrito de compras" (click)="abrirCarrito()" class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
-        <mat-icon>shopping_cart</mat-icon>
-      </button>
-      <button mat-icon-button matTooltip="Menú del usuario" class="example-icon" aria-label="Example icon-button with share icon" [matMenuTriggerFor]="menu">
-        <mat-icon>more_vert</mat-icon>
-      </button>
-      <mat-menu #menu="matMenu">
-        <button mat-menu-item (click)="historialDeCompras()">
-          <mat-icon>history</mat-icon>
-          <span>Historial de compras</span>
+      <div *ngIf="loged">
+        <button mat-icon-button matTooltip="Abrir carrito de compras" (click)="abrirCarrito()" class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+          <mat-icon>shopping_cart</mat-icon>
         </button>
-        <button mat-menu-item>
-          <mat-icon>settings</mat-icon>
-          <span>Configuración</span>
+        <button mat-icon-button matTooltip="Menú del usuario" class="example-icon" aria-label="Example icon-button with share icon" [matMenuTriggerFor]="menu">
+          <mat-icon>more_vert</mat-icon>
         </button>
-        <button mat-menu-item (click)="editarPerfil()">
-          <mat-icon>account_box</mat-icon>
-          <span>Editar perfil</span>
-        </button>
-        <button mat-menu-item (click)="cerrarSesion()">
-          <mat-icon>exit_to_app</mat-icon>
-          <span>Cerrar sesión</span>
-        </button>
-      </mat-menu>
+        <mat-menu #menu="matMenu">
+          <button mat-menu-item (click)="historialDeCompras()">
+            <mat-icon>history</mat-icon>
+            <span>Historial de compras</span>
+          </button>
+          <!--<button mat-menu-item>
+            <mat-icon>settings</mat-icon>
+            <span>Configuración</span>
+          </button>
+          <button mat-menu-item (click)="editarPerfil()">
+            <mat-icon>account_box</mat-icon>
+            <span>Editar perfil</span>
+          </button>-->
+          <button mat-menu-item (click)="cerrarSesion()">
+            <mat-icon>exit_to_app</mat-icon>
+            <span>Cerrar sesión</span>
+          </button>
+        </mat-menu>
+      </div>
+      <div *ngIf="!loged">
+        <a mat-stroked-button href="/login">Login</a>
+      </div>
     </mat-toolbar-row>
   </mat-toolbar>
 </header>

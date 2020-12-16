@@ -16,7 +16,6 @@ namespace Tienda.Ventas.WebApp.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [EnableCors("_myAllowSpecificOrigins")]
     public class ProductosController : ControllerBase
     {
         private ILogger<ProductosController> _logger;

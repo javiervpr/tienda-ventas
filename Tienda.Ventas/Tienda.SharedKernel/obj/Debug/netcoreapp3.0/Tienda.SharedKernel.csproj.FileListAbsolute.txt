@@ -3,7 +3,6 @@ C:\Users\HP\Desktop\NUR\Proyectos\TiendaVentas\Tienda.Ventas\Tienda.SharedKernel
 C:\Users\HP\Desktop\NUR\Proyectos\TiendaVentas\Tienda.Ventas\Tienda.SharedKernel\bin\Debug\netcoreapp3.0\Tienda.SharedKernel.runtimeconfig.dev.json
 C:\Users\HP\Desktop\NUR\Proyectos\TiendaVentas\Tienda.Ventas\Tienda.SharedKernel\bin\Debug\netcoreapp3.0\Tienda.SharedKernel.dll
 C:\Users\HP\Desktop\NUR\Proyectos\TiendaVentas\Tienda.Ventas\Tienda.SharedKernel\bin\Debug\netcoreapp3.0\Tienda.SharedKernel.pdb
-C:\Users\HP\Desktop\NUR\Proyectos\TiendaVentas\Tienda.Ventas\Tienda.SharedKernel\obj\Debug\netcoreapp3.0\Tienda.SharedKernel.csprojAssemblyReference.cache
 C:\Users\HP\Desktop\NUR\Proyectos\TiendaVentas\Tienda.Ventas\Tienda.SharedKernel\obj\Debug\netcoreapp3.0\Tienda.SharedKernel.AssemblyInfoInputs.cache
 C:\Users\HP\Desktop\NUR\Proyectos\TiendaVentas\Tienda.Ventas\Tienda.SharedKernel\obj\Debug\netcoreapp3.0\Tienda.SharedKernel.AssemblyInfo.cs
 C:\Users\HP\Desktop\NUR\Proyectos\TiendaVentas\Tienda.Ventas\Tienda.SharedKernel\obj\Debug\netcoreapp3.0\Tienda.SharedKernel.dll

@@ -1,66 +1,34 @@
-<h2 mat-dialog-title align="center">Carrito de compras</h2>
-<mat-dialog-content class="mat-typography">
-
-  <table mat-table *ngIf="carritoProductos.length > 0"
-       [dataSource]="carritoProductos"
-       class="mat-elevation-z0 product-table">
-
-    <ng-container matColumnDef="Nombre">
-      <th mat-header-cell *matHeaderCellDef> Nombre </th>
-      <td mat-cell *matCellDef="let element"> {{element.nombre}} </td>
-    </ng-container>
-  
-    <ng-container matColumnDef="Cantidad">
-      <th mat-header-cell *matHeaderCellDef> Cantidad </th>
-      <td mat-cell *matCellDef="let element"> {{element.cantidad}} </td>
-    </ng-container>
-  
-    <ng-container matColumnDef="Precio por unidad">
-      <th mat-header-cell *matHeaderCellDef> Precio por unidad </th>
-      <td mat-cell *matCellDef="let element"> {{element.precio}} </td>
-    </ng-container>
-
-    <ng-container matColumnDef="Precio total">
-      <th mat-header-cell *matHeaderCellDef> Precio total </th>
-      <td mat-cell *matCellDef="let element"> {{element.precio * element.cantidad}} </td>
-    </ng-container>
-
-    <tr mat-header-row *matHeaderRowDef="columnsToDisplay"></tr>
-    <tr mat-row *matRowDef="let row; columns: columnsToDisplay;"></tr>
-    <!-- <ng-container matColumnDef="{{column}}" *ngFor="let column of columnsToDisplay">
-      <th mat-header-cell *matHeaderCellDef> {{column}} </th>
-      <td mat-cell *matCellDef="let element"> {{element[column]}} </td>
-    </ng-container>
-
-    <ng-container matColumnDef="expandedDetail">
-      <td mat-cell *matCellDef="let element" [attr.colspan]="columnsToDisplay.length">
-        <div class="example-element-detail"
-            [@detailExpand]="element == expandedElement ? 'expanded' : 'collapsed'">
-          <div class="example-element-diagram">
-            <div class="example-element-position"> {{element.position}} </div>
-            <div class="example-element-symbol"> {{element.symbol}} </div>
-            <div class="example-element-name"> {{element.name}} </div>
-            <div class="example-element-weight"> {{element.weight}} </div>
-          </div>
-          <div class="example-element-description">
-            {{element.description}}
-          </div>
-        </div>
-      </td>
-    </ng-container>
-
-    <tr mat-header-row *matHeaderRowDef="columnsToDisplay"></tr>
-    <tr mat-row *matRowDef="let element; columns: columnsToDisplay;"
-        class="example-element-row"
-        [class.example-expanded-row]="expandedElement === element"
-        (click)="expandedElement = expandedElement === element ? null : element">
-    </tr>
-    <tr mat-row *matRowDef="let row; columns: ['expandedDetail']" class="example-detail-row"></tr> -->
-  </table>
-  <p *ngIf="carritoProductos.length == 0" align="center">Aún no tiene productos en el carrito</p>
-
-</mat-dialog-content>
-<mat-dialog-actions align="end">
-  <button mat-button mat-dialog-close>Salir</button>
-  <button mat-flat-button [mat-dialog-close]="true" color="primary" (click)="pagar()" [disabled]="carritoProductos.length == 0">Pagar</button>
-</mat-dialog-actions>
+<div class="center-horizontal">
+  <div>
+    <h2 style="text-align: center;">Carrito de compras</h2>
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Producto</th>
+          <th>Precio unitario</th>
+          <th>Cantidad</th>
+          <th>Precio total</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr app-carrito-producto (actualizarCarrito)="obtenerCarrito()" *ngFor="let producto of carritoProductos"
+          [id]="producto.id"
+          [nombre]="producto.nombre"
+          [imagen]="producto.urlImagen"
+          [categoria]="producto.categoria"
+          [precio]="producto.precio"
+          [cantidad]="producto.cantidad">
+        </tr>
+        <tr *ngIf="carritoProductos.length == 0">
+          <td colspan="5">Aún no tiene productos en el carrito</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="center-horizontal">
+      <button mat-raised-button color="warn" (click)="vaciarCarrito()">Vaciar carrito</button>
+      <span class="spacer"></span>
+      <button mat-raised-button color="primary" [disabled]="carritoProductos.length == 0" (click)="pagar()">Finalizar compra</button>
+    </div>
+  </div>
+</div>

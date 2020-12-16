@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ToastrModule } from 'ngx-toastr';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SharedModule } from './shared/shared.module';
 import { HttpClientModule } from '@angular/common/http';
@@ -15,6 +16,8 @@ import { InicioComponent } from './ventas/components/inicio/inicio.component';
 import { HistorialComponent } from './ventas/components/historial/historial.component';
 import { PerfilComponent } from './ventas/components/perfil/perfil.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { CarritoProductoComponent } from './ventas/components/carrito-producto/carrito-producto.component';
+import { PagoDetalleComponent } from './ventas/components/pago-detalle/pago-detalle.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +29,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     RegistrarComponent,
     InicioComponent,
     HistorialComponent,
-    PerfilComponent
+    PerfilComponent,
+    CarritoProductoComponent,
+    PagoDetalleComponent
   ],
   imports: [
     BrowserModule,
@@ -36,11 +41,17 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
+    ToastrModule.forRoot({
+      timeOut: 10000,
+      positionClass: 'toast-bottom-right',
+      preventDuplicates: true
+    })
   ],
   providers: [],
   bootstrap: [AppComponent],
   entryComponents: [
-    CarritoComponent
+    CarritoComponent,
+    PagoDetalleComponent
   ]
 })
 export class AppModule { }

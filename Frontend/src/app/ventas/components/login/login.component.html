@@ -3,20 +3,20 @@
         <p style="text-align: center;">
             <mat-form-field class="input-login" appearance="outline">
                 <mat-label>Correo</mat-label>
-                <input class="input-login" matInput placeholder="example@example.com" name="usuario">
+                <input class="input-login" matInput placeholder="example@example.com" name="usuario" formControlName="nombre_usuario">
             </mat-form-field>
         </p>
         <p style="text-align: center;">
             <mat-form-field class="input-login" appearance="outline">
                 <mat-label>Contraseña</mat-label>
-                <input matInput [type]="hide ? 'password' : 'text'" name="contrasenha">
+                <input matInput [type]="hide ? 'password' : 'text'" name="contrasenha" formControlName="contrasenha">
                 <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
                     <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
                 </button>
             </mat-form-field>
         </p>
         <p style="text-align: center;">
-            <button mat-flat-button color="primary" type="button">Ingresar</button>
+            <button mat-flat-button color="primary" type="button" (click)="login()">Ingresar</button>
         </p>
         <br>
         <p style="text-align: center;">

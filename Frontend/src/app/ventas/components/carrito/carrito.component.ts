@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {animate, state, style, transition, trigger} from '@angular/animations';
+import {MatDialog} from '@angular/material/dialog';
+import { PagoDetalleComponent } from '../pago-detalle/pago-detalle.component';
 
 @Component({
   selector: 'app-carrito',
@@ -21,7 +23,9 @@ export class CarritoComponent implements OnInit {
   columnsToDisplay = ['Nombre', 'Precio por unidad', 'Cantidad', 'Precio total'];
   expandedElement: PeriodicElement | null;
 
-  constructor() { }
+  constructor(
+    public dialog: MatDialog
+  ) { }
 
   ngOnInit() {
     this.obtenerCarrito();
@@ -36,7 +40,13 @@ export class CarritoComponent implements OnInit {
   }
 
   pagar() {
-    
+    const dialogRef = this.dialog.open(PagoDetalleComponent);
+  }
+
+  vaciarCarrito() {
+    const carrito = [];
+    localStorage.setItem('carrito', JSON.stringify(carrito));
+    this.obtenerCarrito();
   }
 
 }

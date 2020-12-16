@@ -11,6 +11,9 @@ import { VentaService } from './ventas/services/venta.service';
 })
 export class AppComponent implements OnInit {
 
+  loged: boolean;
+  usuarioNombre = '';
+
   constructor(
     public ventaService: VentaService,
     public dialog: MatDialog,
@@ -20,21 +23,31 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    if (localStorage.getItem('loged') === 'true') {
+      this.usuarioNombre = localStorage.getItem('user_fullname');
+      this.loged = true;
+    } else {
+      this.loged = false;
+    }
   }
 
   abrirCarrito() {
-    const dialogRef = this.dialog.open(CarritoComponent);
+    // const dialogRef = this.dialog.open(CarritoComponent);
+    this.router.navigate(['/carrito']);
   }
 
   historialDeCompras() {
     this.router.navigate(['/historial']);
   }
 
-  cerrarSesion() {
-    this.router.navigate(['/login']);
-  }
-
   editarPerfil() {
     this.router.navigate(['/perfil']);
+  }
+
+  cerrarSesion() {
+    localStorage.setItem('loged', 'false');
+    const carrito = [];
+    localStorage.setItem('carrito', JSON.stringify(carrito));
+    window.location.reload();
   }
 }

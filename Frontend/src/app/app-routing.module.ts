@@ -6,6 +6,7 @@ import { DetalleProductoComponent } from './ventas/components/detalle-producto/d
 import { InicioComponent } from './ventas/components/inicio/inicio.component';
 import { HistorialComponent } from './ventas/components/historial/historial.component';
 import { PerfilComponent } from './ventas/components/perfil/perfil.component';
+import { CarritoComponent } from './ventas/components/carrito/carrito.component';
 
 
 const routes: Routes = [
@@ -14,6 +15,7 @@ const routes: Routes = [
   { path: 'registrar', component: RegistrarComponent },
   { path: 'historial', component: HistorialComponent },
   { path: 'perfil', component: PerfilComponent },
+  { path: 'carrito', component: CarritoComponent },
   { path: 'detalle/:id', component: DetalleProductoComponent }
 ];
 

@@ -10447,3 +10447,1172 @@ WHERE [v].[Id] = @__venta_Id_0
 2020-12-14 14:21:28.026 -04:00 [INF] HTTP GET /api/ventas/historial/D227C4CA-0D82-475C-832D-DC74151630CF responded 200 in 104.7748 ms
 2020-12-14 14:21:28.026 -04:00 [DBG] 'ApplicationDbContext' disposed.
 2020-12-14 14:21:28.026 -04:00 [INF] Request finished in 106.2974ms 200 application/json; charset=utf-8
+2020-12-15 23:57:09.430 -04:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2020-12-15 23:57:09.895 -04:00 [DBG] Loaded hosting startup assembly Tienda.Ventas.WebApp
+2020-12-15 23:57:09.928 -04:00 [INF] Request starting HTTP/2.0 GET https://localhost:44388/api/productos  
+2020-12-15 23:57:09.933 -04:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2020-12-15 23:57:09.933 -04:00 [VRB] All hosts are allowed.
+2020-12-15 23:57:09.940 -04:00 [DBG] The request path /api/productos does not match a supported file type
+2020-12-15 23:57:09.991 -04:00 [DBG] 1 candidate(s) found for the request path '/api/productos'
+2020-12-15 23:57:09.999 -04:00 [DBG] Endpoint 'Tienda.Ventas.WebApp.Controllers.ProductosController.GetProductos (Tienda.Ventas.WebApp)' with route pattern 'api/Productos' is valid for the request path '/api/productos'
+2020-12-15 23:57:10.001 -04:00 [DBG] Request matched endpoint 'Tienda.Ventas.WebApp.Controllers.ProductosController.GetProductos (Tienda.Ventas.WebApp)'
+2020-12-15 23:57:10.006 -04:00 [INF] Executing endpoint 'Tienda.Ventas.WebApp.Controllers.ProductosController.GetProductos (Tienda.Ventas.WebApp)'
+2020-12-15 23:57:10.020 -04:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2020-12-15 23:57:10.064 -04:00 [INF] Route matched with {action = "GetProductos", controller = "Productos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProductos() on controller Tienda.Ventas.WebApp.Controllers.ProductosController (Tienda.Ventas.WebApp).
+2020-12-15 23:57:10.070 -04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-12-15 23:57:10.071 -04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2020-12-15 23:57:10.071 -04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-12-15 23:57:10.071 -04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-12-15 23:57:10.071 -04:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-12-15 23:57:10.072 -04:00 [DBG] Executing controller factory for controller Tienda.Ventas.WebApp.Controllers.ProductosController (Tienda.Ventas.WebApp)
+2020-12-15 23:57:10.074 -04:00 [DBG] Executed controller factory for controller Tienda.Ventas.WebApp.Controllers.ProductosController (Tienda.Ventas.WebApp)
+2020-12-15 23:57:10.074 -04:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-15 23:57:10.075 -04:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-15 23:57:10.075 -04:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-15 23:57:10.075 -04:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-15 23:57:10.082 -04:00 [INF] Executing action method Tienda.Ventas.WebApp.Controllers.ProductosController.GetProductos (Tienda.Ventas.WebApp) - Validation state: "Valid"
+2020-12-15 23:57:10.085 -04:00 [INF] Obteniendo productos...
+2020-12-15 23:57:11.299 -04:00 [DBG] The property 'ClienteId.EmailValue' was created in shadow state because there are no eligible CLR members with a matching name.
+2020-12-15 23:57:11.299 -04:00 [DBG] The property 'ClienteId.PasswordValue' was created in shadow state because there are no eligible CLR members with a matching name.
+2020-12-15 23:57:11.299 -04:00 [DBG] The property 'ProductoId.DetalleVenta' was created in shadow state because there are no eligible CLR members with a matching name.
+2020-12-15 23:57:11.300 -04:00 [DBG] The property 'VentaId.DetalleVenta' was created in shadow state because there are no eligible CLR members with a matching name.
+2020-12-15 23:57:11.300 -04:00 [DBG] The property 'VentaId.Factura' was created in shadow state because there are no eligible CLR members with a matching name.
+2020-12-15 23:57:11.300 -04:00 [DBG] The property 'ClienteId.Venta' was created in shadow state because there are no eligible CLR members with a matching name.
+2020-12-15 23:57:11.300 -04:00 [DBG] The property 'FacturaId.NITValue' was created in shadow state because there are no eligible CLR members with a matching name.
+2020-12-15 23:57:11.300 -04:00 [DBG] The property 'ProductoId.NombreCategoriaValue' was created in shadow state because there are no eligible CLR members with a matching name.
+2020-12-15 23:57:11.300 -04:00 [DBG] The property 'DetalleVentaId.NumMayorACeroValue' was created in shadow state because there are no eligible CLR members with a matching name.
+2020-12-15 23:57:11.300 -04:00 [DBG] The property 'ProductoId.ProductoNombreValue' was created in shadow state because there are no eligible CLR members with a matching name.
+2020-12-15 23:57:11.300 -04:00 [DBG] The property 'ProductoId.ProductoPrecioValue' was created in shadow state because there are no eligible CLR members with a matching name.
+2020-12-15 23:57:11.300 -04:00 [DBG] The property 'FacturaId.RazonSocialValue' was created in shadow state because there are no eligible CLR members with a matching name.
+2020-12-15 23:57:11.301 -04:00 [DBG] The property 'ClienteId.Cliente.Apellidos#PersonNameValue' was created in shadow state because there are no eligible CLR members with a matching name.
+2020-12-15 23:57:11.301 -04:00 [DBG] The property 'ClienteId.Cliente.Nombres#PersonNameValue' was created in shadow state because there are no eligible CLR members with a matching name.
+2020-12-15 23:57:11.301 -04:00 [DBG] The property 'DetalleVentaId.DetalleVenta.Precio#DoubleMayorIgualACeroValue' was created in shadow state because there are no eligible CLR members with a matching name.
+2020-12-15 23:57:11.301 -04:00 [DBG] The property 'DetalleVentaId.DetalleVenta.Subtotal#DoubleMayorIgualACeroValue' was created in shadow state because there are no eligible CLR members with a matching name.
+2020-12-15 23:57:11.562 -04:00 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=Tienda.Ventas.Infraestructura, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2020-12-15 23:57:11.665 -04:00 [DBG] Compiling query expression: 
+'DbSet<Producto>()'
+2020-12-15 23:57:11.705 -04:00 [DBG] Including navigation: 'Producto.Categoria'.
+2020-12-15 23:57:11.706 -04:00 [DBG] Including navigation: 'Producto.Nombre'.
+2020-12-15 23:57:11.706 -04:00 [DBG] Including navigation: 'Producto.Precio'.
+2020-12-15 23:57:11.992 -04:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Producto>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+        SELECT p.Id, p.urlImagen, p.categoria, p.nombre, p.precio
+        FROM Productos AS p), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Producto>, 
+    Tienda.Ventas.Infraestructura.Persistence.ApplicationDbContext, 
+    False, 
+    False
+)'
+2020-12-15 23:57:12.056 -04:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2020-12-15 23:57:12.130 -04:00 [DBG] Created DbCommand for 'ExecuteReader' (66ms).
+2020-12-15 23:57:12.142 -04:00 [DBG] Opening connection to database 'TiendaVentas' on server 'LAPTOP-GPA\SQLEXPRESS'.
+2020-12-15 23:57:13.029 -04:00 [DBG] Opened connection to database 'TiendaVentas' on server 'LAPTOP-GPA\SQLEXPRESS'.
+2020-12-15 23:57:13.039 -04:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[urlImagen], [p].[categoria], [p].[nombre], [p].[precio]
+FROM [Productos] AS [p]
+2020-12-15 23:57:13.156 -04:00 [INF] Executed DbCommand (118ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[urlImagen], [p].[categoria], [p].[nombre], [p].[precio]
+FROM [Productos] AS [p]
+2020-12-15 23:57:13.233 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:13.266 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:13.296 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:13.304 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:13.328 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:13.329 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:13.329 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:13.329 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:13.330 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:13.330 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:13.330 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:13.330 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:13.330 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:13.330 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:13.330 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:13.330 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:13.330 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:13.330 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:13.330 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:13.331 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:13.331 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:13.331 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:13.331 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:13.331 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:13.331 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:13.331 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:13.331 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:13.331 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:13.331 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:13.331 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:13.331 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:13.332 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:13.332 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:13.332 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:13.332 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:13.332 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:13.332 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:13.332 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:13.332 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:13.332 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:13.332 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:13.332 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:13.332 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:13.332 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:13.333 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:13.333 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:13.333 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:13.333 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:13.338 -04:00 [DBG] A data reader was disposed.
+2020-12-15 23:57:13.343 -04:00 [DBG] Closing connection to database 'TiendaVentas' on server 'LAPTOP-GPA\SQLEXPRESS'.
+2020-12-15 23:57:13.354 -04:00 [DBG] Closed connection to database 'TiendaVentas' on server 'LAPTOP-GPA\SQLEXPRESS'.
+2020-12-15 23:57:13.374 -04:00 [INF] Executed action method Tienda.Ventas.WebApp.Controllers.ProductosController.GetProductos (Tienda.Ventas.WebApp), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 3282.9133ms.
+2020-12-15 23:57:13.376 -04:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-15 23:57:13.376 -04:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-15 23:57:13.377 -04:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-15 23:57:13.377 -04:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-15 23:57:13.378 -04:00 [VRB] Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-15 23:57:13.378 -04:00 [VRB] Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-15 23:57:13.379 -04:00 [VRB] Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2020-12-15 23:57:13.381 -04:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2020-12-15 23:57:13.384 -04:00 [DBG] No information found on request to perform content negotiation.
+2020-12-15 23:57:13.384 -04:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2020-12-15 23:57:13.384 -04:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2020-12-15 23:57:13.384 -04:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2020-12-15 23:57:13.384 -04:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tienda.Ventas.Applicacion.DTO.ProductoDTO, Tienda.Ventas.Applicacion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-12-15 23:57:13.432 -04:00 [VRB] After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2020-12-15 23:57:13.432 -04:00 [VRB] Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-15 23:57:13.433 -04:00 [VRB] Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-15 23:57:13.438 -04:00 [INF] Executed action Tienda.Ventas.WebApp.Controllers.ProductosController.GetProductos (Tienda.Ventas.WebApp) in 3361.9141ms
+2020-12-15 23:57:13.440 -04:00 [INF] Executed endpoint 'Tienda.Ventas.WebApp.Controllers.ProductosController.GetProductos (Tienda.Ventas.WebApp)'
+2020-12-15 23:57:13.443 -04:00 [INF] HTTP GET /api/productos responded 200 in 3499.6547 ms
+2020-12-15 23:57:13.451 -04:00 [DBG] 'ApplicationDbContext' disposed.
+2020-12-15 23:57:13.453 -04:00 [INF] Request finished in 3530.6331ms 200 application/json; charset=utf-8
+2020-12-15 23:57:13.903 -04:00 [INF] Request starting HTTP/2.0 GET https://localhost:44388/favicon.ico  
+2020-12-15 23:57:13.904 -04:00 [VRB] All hosts are allowed.
+2020-12-15 23:57:13.921 -04:00 [DBG] The request path /favicon.ico does not match an existing file
+2020-12-15 23:57:13.922 -04:00 [DBG] No candidates found for the request path '/favicon.ico'
+2020-12-15 23:57:13.922 -04:00 [DBG] Request did not match any endpoints
+2020-12-15 23:57:13.923 -04:00 [INF] HTTP GET /favicon.ico responded 404 in 1.3817 ms
+2020-12-15 23:57:13.926 -04:00 [INF] Request finished in 23.2224ms 404 
+2020-12-15 23:57:48.578 -04:00 [INF] Request starting HTTP/2.0 OPTIONS https://localhost:44388/api/ventas  
+2020-12-15 23:57:48.579 -04:00 [VRB] All hosts are allowed.
+2020-12-15 23:57:48.579 -04:00 [DBG] OPTIONS requests are not supported
+2020-12-15 23:57:48.581 -04:00 [DBG] 1 candidate(s) found for the request path '/api/ventas'
+2020-12-15 23:57:48.581 -04:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
+2020-12-15 23:57:48.582 -04:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2020-12-15 23:57:48.582 -04:00 [INF] CORS policy execution successful.
+2020-12-15 23:57:48.584 -04:00 [DBG] The request is a preflight request.
+2020-12-15 23:57:48.585 -04:00 [INF] HTTP OPTIONS /api/ventas responded 204 in 5.0376 ms
+2020-12-15 23:57:48.586 -04:00 [INF] Request finished in 7.5314000000000005ms 204 
+2020-12-15 23:57:48.594 -04:00 [INF] Request starting HTTP/2.0 POST https://localhost:44388/api/ventas application/json 207
+2020-12-15 23:57:48.594 -04:00 [VRB] All hosts are allowed.
+2020-12-15 23:57:48.594 -04:00 [DBG] POST requests are not supported
+2020-12-15 23:57:48.594 -04:00 [DBG] 1 candidate(s) found for the request path '/api/ventas'
+2020-12-15 23:57:48.594 -04:00 [DBG] Endpoint 'Tienda.Ventas.WebApp.Controllers.VentasController.InsertVenta (Tienda.Ventas.WebApp)' with route pattern 'api/Ventas' is valid for the request path '/api/ventas'
+2020-12-15 23:57:48.594 -04:00 [DBG] Request matched endpoint 'Tienda.Ventas.WebApp.Controllers.VentasController.InsertVenta (Tienda.Ventas.WebApp)'
+2020-12-15 23:57:48.595 -04:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2020-12-15 23:57:48.595 -04:00 [INF] CORS policy execution successful.
+2020-12-15 23:57:48.595 -04:00 [INF] Executing endpoint 'Tienda.Ventas.WebApp.Controllers.VentasController.InsertVenta (Tienda.Ventas.WebApp)'
+2020-12-15 23:57:48.612 -04:00 [INF] Route matched with {action = "InsertVenta", controller = "Ventas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] InsertVenta(Tienda.Ventas.Applicacion.Features.Venta.InsertVenta.InsertVentaCommand) on controller Tienda.Ventas.WebApp.Controllers.VentasController (Tienda.Ventas.WebApp).
+2020-12-15 23:57:48.612 -04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-12-15 23:57:48.612 -04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2020-12-15 23:57:48.612 -04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-12-15 23:57:48.612 -04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-12-15 23:57:48.612 -04:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-12-15 23:57:48.614 -04:00 [DBG] Executing controller factory for controller Tienda.Ventas.WebApp.Controllers.VentasController (Tienda.Ventas.WebApp)
+2020-12-15 23:57:48.620 -04:00 [DBG] Executed controller factory for controller Tienda.Ventas.WebApp.Controllers.VentasController (Tienda.Ventas.WebApp)
+2020-12-15 23:57:48.631 -04:00 [DBG] Attempting to bind parameter 'insertVentaCommand' of type 'Tienda.Ventas.Applicacion.Features.Venta.InsertVenta.InsertVentaCommand' ...
+2020-12-15 23:57:48.633 -04:00 [DBG] Attempting to bind parameter 'insertVentaCommand' of type 'Tienda.Ventas.Applicacion.Features.Venta.InsertVenta.InsertVentaCommand' using the name '' in request data ...
+2020-12-15 23:57:48.634 -04:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2020-12-15 23:57:48.648 -04:00 [DBG] JSON input formatter succeeded, deserializing to type 'Tienda.Ventas.Applicacion.Features.Venta.InsertVenta.InsertVentaCommand'
+2020-12-15 23:57:48.648 -04:00 [DBG] Done attempting to bind parameter 'insertVentaCommand' of type 'Tienda.Ventas.Applicacion.Features.Venta.InsertVenta.InsertVentaCommand'.
+2020-12-15 23:57:48.648 -04:00 [DBG] Done attempting to bind parameter 'insertVentaCommand' of type 'Tienda.Ventas.Applicacion.Features.Venta.InsertVenta.InsertVentaCommand'.
+2020-12-15 23:57:48.648 -04:00 [DBG] Attempting to validate the bound parameter 'insertVentaCommand' of type 'Tienda.Ventas.Applicacion.Features.Venta.InsertVenta.InsertVentaCommand' ...
+2020-12-15 23:57:48.657 -04:00 [DBG] Done attempting to validate the bound parameter 'insertVentaCommand' of type 'Tienda.Ventas.Applicacion.Features.Venta.InsertVenta.InsertVentaCommand'.
+2020-12-15 23:57:48.658 -04:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-15 23:57:48.658 -04:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-15 23:57:48.658 -04:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-15 23:57:48.658 -04:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-15 23:57:48.658 -04:00 [INF] Executing action method Tienda.Ventas.WebApp.Controllers.VentasController.InsertVenta (Tienda.Ventas.WebApp) - Validation state: "Valid"
+2020-12-15 23:57:48.658 -04:00 [VRB] Executing action method Tienda.Ventas.WebApp.Controllers.VentasController.InsertVenta (Tienda.Ventas.WebApp) with arguments (["Tienda.Ventas.Applicacion.Features.Venta.InsertVenta.InsertVentaCommand"])
+2020-12-15 23:57:48.659 -04:00 [INF] Insertando venta con los parametros
+2020-12-15 23:57:48.696 -04:00 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=Tienda.Ventas.Infraestructura, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2020-12-15 23:57:48.709 -04:00 [DBG] Compiling query expression: 
+'DbSet<Cliente>()
+    .Where(c => c.Id.Equals(__ventaDTO_Cliente_Id_0))
+    .FirstOrDefault()'
+2020-12-15 23:57:48.722 -04:00 [DBG] Including navigation: 'Cliente.Apellidos'.
+2020-12-15 23:57:48.722 -04:00 [DBG] Including navigation: 'Cliente.Email'.
+2020-12-15 23:57:48.722 -04:00 [DBG] Including navigation: 'Cliente.Nombres'.
+2020-12-15 23:57:48.723 -04:00 [DBG] Including navigation: 'Cliente.Password'.
+2020-12-15 23:57:48.787 -04:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<Cliente>(
+    asyncEnumerable: new SingleQueryingEnumerable<Cliente>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+            SELECT TOP(1) c.Id, c.apellidos, c.email, c.nombres, c.password
+            FROM Clientes AS c
+            WHERE c.Id == @__ventaDTO_Cliente_Id_0), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Cliente>, 
+        Tienda.Ventas.Infraestructura.Persistence.ApplicationDbContext, 
+        False, 
+        False
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2020-12-15 23:57:48.793 -04:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2020-12-15 23:57:48.794 -04:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2020-12-15 23:57:48.796 -04:00 [DBG] Opening connection to database 'TiendaVentas' on server 'LAPTOP-GPA\SQLEXPRESS'.
+2020-12-15 23:57:48.797 -04:00 [DBG] Opened connection to database 'TiendaVentas' on server 'LAPTOP-GPA\SQLEXPRESS'.
+2020-12-15 23:57:48.800 -04:00 [DBG] Executing DbCommand [Parameters=[@__ventaDTO_Cliente_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[apellidos], [c].[email], [c].[nombres], [c].[password]
+FROM [Clientes] AS [c]
+WHERE [c].[Id] = @__ventaDTO_Cliente_Id_0
+2020-12-15 23:57:48.843 -04:00 [INF] Executed DbCommand (45ms) [Parameters=[@__ventaDTO_Cliente_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[apellidos], [c].[email], [c].[nombres], [c].[password]
+FROM [Clientes] AS [c]
+WHERE [c].[Id] = @__ventaDTO_Cliente_Id_0
+2020-12-15 23:57:48.863 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Cliente' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:48.867 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'PersonNameValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:48.874 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'EmailValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:48.878 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'PersonNameValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:48.882 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'PasswordValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:48.890 -04:00 [DBG] A data reader was disposed.
+2020-12-15 23:57:48.890 -04:00 [DBG] Closing connection to database 'TiendaVentas' on server 'LAPTOP-GPA\SQLEXPRESS'.
+2020-12-15 23:57:48.890 -04:00 [DBG] Closed connection to database 'TiendaVentas' on server 'LAPTOP-GPA\SQLEXPRESS'.
+2020-12-15 23:57:48.968 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Venta' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:48.988 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Factura' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:48.993 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NITValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:48.997 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'RazonSocialValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:48.998 -04:00 [DBG] Compiling query expression: 
+'DbSet<Producto>()
+    .Where(p => p.Id.Equals(__detalle_Producto_Id_0))
+    .FirstOrDefault()'
+2020-12-15 23:57:48.998 -04:00 [DBG] Including navigation: 'Producto.Categoria'.
+2020-12-15 23:57:48.998 -04:00 [DBG] Including navigation: 'Producto.Nombre'.
+2020-12-15 23:57:48.998 -04:00 [DBG] Including navigation: 'Producto.Precio'.
+2020-12-15 23:57:49.011 -04:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<Producto>(
+    asyncEnumerable: new SingleQueryingEnumerable<Producto>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+            SELECT TOP(1) p.Id, p.urlImagen, p.categoria, p.nombre, p.precio
+            FROM Productos AS p
+            WHERE p.Id == @__detalle_Producto_Id_0), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Producto>, 
+        Tienda.Ventas.Infraestructura.Persistence.ApplicationDbContext, 
+        False, 
+        False
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2020-12-15 23:57:49.012 -04:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2020-12-15 23:57:49.012 -04:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2020-12-15 23:57:49.012 -04:00 [DBG] Opening connection to database 'TiendaVentas' on server 'LAPTOP-GPA\SQLEXPRESS'.
+2020-12-15 23:57:49.012 -04:00 [DBG] Opened connection to database 'TiendaVentas' on server 'LAPTOP-GPA\SQLEXPRESS'.
+2020-12-15 23:57:49.012 -04:00 [DBG] Executing DbCommand [Parameters=[@__detalle_Producto_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[urlImagen], [p].[categoria], [p].[nombre], [p].[precio]
+FROM [Productos] AS [p]
+WHERE [p].[Id] = @__detalle_Producto_Id_0
+2020-12-15 23:57:49.014 -04:00 [INF] Executed DbCommand (2ms) [Parameters=[@__detalle_Producto_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[urlImagen], [p].[categoria], [p].[nombre], [p].[precio]
+FROM [Productos] AS [p]
+WHERE [p].[Id] = @__detalle_Producto_Id_0
+2020-12-15 23:57:49.014 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:49.014 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:49.015 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:49.015 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:49.015 -04:00 [DBG] A data reader was disposed.
+2020-12-15 23:57:49.015 -04:00 [DBG] Closing connection to database 'TiendaVentas' on server 'LAPTOP-GPA\SQLEXPRESS'.
+2020-12-15 23:57:49.015 -04:00 [DBG] Closed connection to database 'TiendaVentas' on server 'LAPTOP-GPA\SQLEXPRESS'.
+2020-12-15 23:57:49.037 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'DetalleVenta' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:49.050 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NumMayorACeroValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:49.057 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'DoubleMayorIgualACeroValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:49.062 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'DoubleMayorIgualACeroValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:49.065 -04:00 [DBG] SaveChanges starting for 'ApplicationDbContext'.
+2020-12-15 23:57:49.068 -04:00 [DBG] DetectChanges starting for 'ApplicationDbContext'.
+2020-12-15 23:57:49.098 -04:00 [DBG] DetectChanges completed for 'ApplicationDbContext'.
+2020-12-15 23:57:49.120 -04:00 [DBG] Opening connection to database 'TiendaVentas' on server 'LAPTOP-GPA\SQLEXPRESS'.
+2020-12-15 23:57:49.120 -04:00 [DBG] Opened connection to database 'TiendaVentas' on server 'LAPTOP-GPA\SQLEXPRESS'.
+2020-12-15 23:57:49.121 -04:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2020-12-15 23:57:49.129 -04:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2020-12-15 23:57:49.202 -04:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2020-12-15 23:57:49.202 -04:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2020-12-15 23:57:49.207 -04:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (DbType = Int32), @p3='?' (DbType = DateTime2), @p4='?' (DbType = DateTime2), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Ventas] ([Id], [ClienteId], [estado], [fechaAnulacion], [fechaCreacion], [fechaFinalizacion])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2020-12-15 23:57:49.551 -04:00 [INF] Executed DbCommand (344ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (DbType = Int32), @p3='?' (DbType = DateTime2), @p4='?' (DbType = DateTime2), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Ventas] ([Id], [ClienteId], [estado], [fechaAnulacion], [fechaCreacion], [fechaFinalizacion])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2020-12-15 23:57:49.561 -04:00 [DBG] A data reader was disposed.
+2020-12-15 23:57:49.571 -04:00 [DBG] Executing update commands individually as the number of batchable commands (2) is smaller than the minimum batch size (4).
+2020-12-15 23:57:49.572 -04:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2020-12-15 23:57:49.572 -04:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2020-12-15 23:57:49.574 -04:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (DbType = Guid), @p3='?' (DbType = Double), @p4='?' (DbType = Double), @p5='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [DetalleVentas] ([Id], [ProductoId], [VentaId], [precio], [subtotal], [cantidad])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2020-12-15 23:57:49.858 -04:00 [INF] Executed DbCommand (285ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (DbType = Guid), @p3='?' (DbType = Double), @p4='?' (DbType = Double), @p5='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [DetalleVentas] ([Id], [ProductoId], [VentaId], [precio], [subtotal], [cantidad])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2020-12-15 23:57:49.859 -04:00 [DBG] A data reader was disposed.
+2020-12-15 23:57:49.859 -04:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2020-12-15 23:57:49.859 -04:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2020-12-15 23:57:49.860 -04:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Guid), @p3='?' (Size = 4000), @p4='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Facturas] ([Id], [FechaEmision], [VentaId], [nit], [razonSocial])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2020-12-15 23:57:50.155 -04:00 [INF] Executed DbCommand (295ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Guid), @p3='?' (Size = 4000), @p4='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Facturas] ([Id], [FechaEmision], [VentaId], [nit], [razonSocial])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2020-12-15 23:57:50.156 -04:00 [DBG] A data reader was disposed.
+2020-12-15 23:57:50.159 -04:00 [DBG] Committing transaction.
+2020-12-15 23:57:50.161 -04:00 [DBG] Committed transaction.
+2020-12-15 23:57:50.164 -04:00 [DBG] Closing connection to database 'TiendaVentas' on server 'LAPTOP-GPA\SQLEXPRESS'.
+2020-12-15 23:57:50.164 -04:00 [DBG] Closed connection to database 'TiendaVentas' on server 'LAPTOP-GPA\SQLEXPRESS'.
+2020-12-15 23:57:50.166 -04:00 [DBG] Disposing transaction.
+2020-12-15 23:57:50.176 -04:00 [DBG] An entity of type 'Venta' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:50.177 -04:00 [DBG] An entity of type 'Factura' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:50.177 -04:00 [DBG] An entity of type 'NITValue' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:50.177 -04:00 [DBG] An entity of type 'RazonSocialValue' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:50.177 -04:00 [DBG] An entity of type 'DetalleVenta' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:50.178 -04:00 [DBG] An entity of type 'NumMayorACeroValue' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:50.178 -04:00 [DBG] An entity of type 'DoubleMayorIgualACeroValue' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:50.178 -04:00 [DBG] An entity of type 'DoubleMayorIgualACeroValue' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:50.179 -04:00 [DBG] SaveChanges completed for 'ApplicationDbContext' with 3 entities written to the database.
+2020-12-15 23:57:50.180 -04:00 [INF] Executed action method Tienda.Ventas.WebApp.Controllers.VentasController.InsertVenta (Tienda.Ventas.WebApp), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1521.3012ms.
+2020-12-15 23:57:50.180 -04:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-15 23:57:50.180 -04:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-15 23:57:50.180 -04:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-15 23:57:50.180 -04:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-15 23:57:50.180 -04:00 [VRB] Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-15 23:57:50.180 -04:00 [VRB] Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-15 23:57:50.180 -04:00 [VRB] Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2020-12-15 23:57:50.181 -04:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2020-12-15 23:57:50.181 -04:00 [DBG] No information found on request to perform content negotiation.
+2020-12-15 23:57:50.181 -04:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2020-12-15 23:57:50.181 -04:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2020-12-15 23:57:50.181 -04:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2020-12-15 23:57:50.181 -04:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2020-12-15 23:57:50.184 -04:00 [VRB] After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2020-12-15 23:57:50.184 -04:00 [VRB] Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-15 23:57:50.184 -04:00 [VRB] Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-15 23:57:50.184 -04:00 [INF] Executed action Tienda.Ventas.WebApp.Controllers.VentasController.InsertVenta (Tienda.Ventas.WebApp) in 1570.1770000000001ms
+2020-12-15 23:57:50.184 -04:00 [INF] Executed endpoint 'Tienda.Ventas.WebApp.Controllers.VentasController.InsertVenta (Tienda.Ventas.WebApp)'
+2020-12-15 23:57:50.184 -04:00 [INF] HTTP POST /api/ventas responded 200 in 1590.2443 ms
+2020-12-15 23:57:50.186 -04:00 [DBG] 'ApplicationDbContext' disposed.
+2020-12-15 23:57:50.186 -04:00 [INF] Request finished in 1594.7534ms 200 text/plain; charset=utf-8
+2020-12-15 23:57:50.214 -04:00 [INF] Request starting HTTP/2.0 OPTIONS https://localhost:44388/api/productos  
+2020-12-15 23:57:50.215 -04:00 [VRB] All hosts are allowed.
+2020-12-15 23:57:50.215 -04:00 [DBG] OPTIONS requests are not supported
+2020-12-15 23:57:50.215 -04:00 [DBG] 1 candidate(s) found for the request path '/api/productos'
+2020-12-15 23:57:50.215 -04:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
+2020-12-15 23:57:50.215 -04:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2020-12-15 23:57:50.215 -04:00 [INF] CORS policy execution successful.
+2020-12-15 23:57:50.215 -04:00 [DBG] The request is a preflight request.
+2020-12-15 23:57:50.215 -04:00 [INF] HTTP OPTIONS /api/productos responded 204 in 0.5048 ms
+2020-12-15 23:57:50.216 -04:00 [INF] Request finished in 1.2209ms 204 
+2020-12-15 23:57:50.223 -04:00 [DBG] Connection ID "18374686489872171090" disconnecting.
+2020-12-15 23:57:50.223 -04:00 [INF] Request starting HTTP/2.0 GET https://localhost:44388/api/productos application/json 
+2020-12-15 23:57:50.223 -04:00 [VRB] All hosts are allowed.
+2020-12-15 23:57:50.223 -04:00 [DBG] The request path /api/productos does not match a supported file type
+2020-12-15 23:57:50.224 -04:00 [DBG] 1 candidate(s) found for the request path '/api/productos'
+2020-12-15 23:57:50.224 -04:00 [DBG] Endpoint 'Tienda.Ventas.WebApp.Controllers.ProductosController.GetProductos (Tienda.Ventas.WebApp)' with route pattern 'api/Productos' is valid for the request path '/api/productos'
+2020-12-15 23:57:50.224 -04:00 [DBG] Request matched endpoint 'Tienda.Ventas.WebApp.Controllers.ProductosController.GetProductos (Tienda.Ventas.WebApp)'
+2020-12-15 23:57:50.224 -04:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2020-12-15 23:57:50.224 -04:00 [INF] CORS policy execution successful.
+2020-12-15 23:57:50.224 -04:00 [INF] Executing endpoint 'Tienda.Ventas.WebApp.Controllers.ProductosController.GetProductos (Tienda.Ventas.WebApp)'
+2020-12-15 23:57:50.225 -04:00 [INF] Route matched with {action = "GetProductos", controller = "Productos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProductos() on controller Tienda.Ventas.WebApp.Controllers.ProductosController (Tienda.Ventas.WebApp).
+2020-12-15 23:57:50.225 -04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-12-15 23:57:50.225 -04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2020-12-15 23:57:50.225 -04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-12-15 23:57:50.225 -04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-12-15 23:57:50.225 -04:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-12-15 23:57:50.226 -04:00 [DBG] Executing controller factory for controller Tienda.Ventas.WebApp.Controllers.ProductosController (Tienda.Ventas.WebApp)
+2020-12-15 23:57:50.226 -04:00 [DBG] Executed controller factory for controller Tienda.Ventas.WebApp.Controllers.ProductosController (Tienda.Ventas.WebApp)
+2020-12-15 23:57:50.227 -04:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-15 23:57:50.228 -04:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-15 23:57:50.228 -04:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-15 23:57:50.231 -04:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-15 23:57:50.231 -04:00 [INF] Executing action method Tienda.Ventas.WebApp.Controllers.ProductosController.GetProductos (Tienda.Ventas.WebApp) - Validation state: "Valid"
+2020-12-15 23:57:50.231 -04:00 [INF] Obteniendo productos...
+2020-12-15 23:57:50.248 -04:00 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=Tienda.Ventas.Infraestructura, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2020-12-15 23:57:50.249 -04:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2020-12-15 23:57:50.249 -04:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2020-12-15 23:57:50.250 -04:00 [DBG] Opening connection to database 'TiendaVentas' on server 'LAPTOP-GPA\SQLEXPRESS'.
+2020-12-15 23:57:50.250 -04:00 [DBG] Opened connection to database 'TiendaVentas' on server 'LAPTOP-GPA\SQLEXPRESS'.
+2020-12-15 23:57:50.250 -04:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[urlImagen], [p].[categoria], [p].[nombre], [p].[precio]
+FROM [Productos] AS [p]
+2020-12-15 23:57:50.252 -04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[urlImagen], [p].[categoria], [p].[nombre], [p].[precio]
+FROM [Productos] AS [p]
+2020-12-15 23:57:50.254 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:50.254 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:50.255 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:50.255 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:50.255 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:50.255 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:50.255 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:50.255 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:50.255 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:50.255 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:50.255 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:50.255 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:50.255 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:50.255 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:50.256 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:50.257 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:50.257 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:50.257 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:50.257 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:50.257 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:50.257 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:50.257 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:50.257 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:50.257 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:50.257 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:50.258 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:50.258 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:50.258 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:50.258 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:50.258 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:50.259 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:50.259 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:50.259 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:50.260 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:50.260 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:50.260 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:50.261 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:50.261 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:50.261 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:50.261 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:50.261 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:50.261 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:50.261 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:50.261 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:50.262 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:50.262 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:50.262 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:50.262 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:57:50.262 -04:00 [DBG] A data reader was disposed.
+2020-12-15 23:57:50.263 -04:00 [DBG] Closing connection to database 'TiendaVentas' on server 'LAPTOP-GPA\SQLEXPRESS'.
+2020-12-15 23:57:50.263 -04:00 [DBG] Closed connection to database 'TiendaVentas' on server 'LAPTOP-GPA\SQLEXPRESS'.
+2020-12-15 23:57:50.264 -04:00 [INF] Executed action method Tienda.Ventas.WebApp.Controllers.ProductosController.GetProductos (Tienda.Ventas.WebApp), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 32.6334ms.
+2020-12-15 23:57:50.264 -04:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-15 23:57:50.264 -04:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-15 23:57:50.265 -04:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-15 23:57:50.265 -04:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-15 23:57:50.265 -04:00 [VRB] Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-15 23:57:50.266 -04:00 [VRB] Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-15 23:57:50.266 -04:00 [VRB] Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2020-12-15 23:57:50.266 -04:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2020-12-15 23:57:50.266 -04:00 [DBG] No information found on request to perform content negotiation.
+2020-12-15 23:57:50.267 -04:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2020-12-15 23:57:50.267 -04:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2020-12-15 23:57:50.267 -04:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2020-12-15 23:57:50.267 -04:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tienda.Ventas.Applicacion.DTO.ProductoDTO, Tienda.Ventas.Applicacion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-12-15 23:57:50.269 -04:00 [VRB] After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2020-12-15 23:57:50.270 -04:00 [VRB] Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-15 23:57:50.270 -04:00 [VRB] Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-15 23:57:50.270 -04:00 [INF] Executed action Tienda.Ventas.WebApp.Controllers.ProductosController.GetProductos (Tienda.Ventas.WebApp) in 44.7586ms
+2020-12-15 23:57:50.271 -04:00 [INF] Executed endpoint 'Tienda.Ventas.WebApp.Controllers.ProductosController.GetProductos (Tienda.Ventas.WebApp)'
+2020-12-15 23:57:50.271 -04:00 [INF] HTTP GET /api/productos responded 200 in 47.2134 ms
+2020-12-15 23:57:50.271 -04:00 [DBG] 'ApplicationDbContext' disposed.
+2020-12-15 23:57:50.272 -04:00 [INF] Request finished in 48.207300000000004ms 200 application/json; charset=utf-8
+2020-12-15 23:59:58.534 -04:00 [INF] Request starting HTTP/2.0 OPTIONS https://localhost:44388/api/productos  
+2020-12-15 23:59:58.535 -04:00 [VRB] All hosts are allowed.
+2020-12-15 23:59:58.535 -04:00 [DBG] OPTIONS requests are not supported
+2020-12-15 23:59:58.536 -04:00 [DBG] 1 candidate(s) found for the request path '/api/productos'
+2020-12-15 23:59:58.536 -04:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
+2020-12-15 23:59:58.536 -04:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2020-12-15 23:59:58.536 -04:00 [INF] CORS policy execution successful.
+2020-12-15 23:59:58.536 -04:00 [DBG] The request is a preflight request.
+2020-12-15 23:59:58.537 -04:00 [INF] HTTP OPTIONS /api/productos responded 204 in 1.3273 ms
+2020-12-15 23:59:58.537 -04:00 [INF] Request finished in 7.6988ms 204 
+2020-12-15 23:59:58.537 -04:00 [DBG] Connection ID "18374686507052040338" disconnecting.
+2020-12-15 23:59:58.551 -04:00 [INF] Request starting HTTP/2.0 GET https://localhost:44388/api/productos application/json 
+2020-12-15 23:59:58.551 -04:00 [VRB] All hosts are allowed.
+2020-12-15 23:59:58.551 -04:00 [DBG] The request path /api/productos does not match a supported file type
+2020-12-15 23:59:58.551 -04:00 [DBG] 1 candidate(s) found for the request path '/api/productos'
+2020-12-15 23:59:58.551 -04:00 [DBG] Endpoint 'Tienda.Ventas.WebApp.Controllers.ProductosController.GetProductos (Tienda.Ventas.WebApp)' with route pattern 'api/Productos' is valid for the request path '/api/productos'
+2020-12-15 23:59:58.551 -04:00 [DBG] Request matched endpoint 'Tienda.Ventas.WebApp.Controllers.ProductosController.GetProductos (Tienda.Ventas.WebApp)'
+2020-12-15 23:59:58.551 -04:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2020-12-15 23:59:58.551 -04:00 [INF] CORS policy execution successful.
+2020-12-15 23:59:58.552 -04:00 [INF] Executing endpoint 'Tienda.Ventas.WebApp.Controllers.ProductosController.GetProductos (Tienda.Ventas.WebApp)'
+2020-12-15 23:59:58.553 -04:00 [INF] Route matched with {action = "GetProductos", controller = "Productos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProductos() on controller Tienda.Ventas.WebApp.Controllers.ProductosController (Tienda.Ventas.WebApp).
+2020-12-15 23:59:58.557 -04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-12-15 23:59:58.557 -04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2020-12-15 23:59:58.558 -04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-12-15 23:59:58.558 -04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-12-15 23:59:58.558 -04:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-12-15 23:59:58.558 -04:00 [DBG] Executing controller factory for controller Tienda.Ventas.WebApp.Controllers.ProductosController (Tienda.Ventas.WebApp)
+2020-12-15 23:59:58.558 -04:00 [DBG] Executed controller factory for controller Tienda.Ventas.WebApp.Controllers.ProductosController (Tienda.Ventas.WebApp)
+2020-12-15 23:59:58.558 -04:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-15 23:59:58.559 -04:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-15 23:59:58.559 -04:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-15 23:59:58.559 -04:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-15 23:59:58.559 -04:00 [INF] Executing action method Tienda.Ventas.WebApp.Controllers.ProductosController.GetProductos (Tienda.Ventas.WebApp) - Validation state: "Valid"
+2020-12-15 23:59:58.559 -04:00 [INF] Obteniendo productos...
+2020-12-15 23:59:58.569 -04:00 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=Tienda.Ventas.Infraestructura, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2020-12-15 23:59:58.570 -04:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2020-12-15 23:59:58.570 -04:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2020-12-15 23:59:58.570 -04:00 [DBG] Opening connection to database 'TiendaVentas' on server 'LAPTOP-GPA\SQLEXPRESS'.
+2020-12-15 23:59:58.571 -04:00 [DBG] Opened connection to database 'TiendaVentas' on server 'LAPTOP-GPA\SQLEXPRESS'.
+2020-12-15 23:59:58.571 -04:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[urlImagen], [p].[categoria], [p].[nombre], [p].[precio]
+FROM [Productos] AS [p]
+2020-12-15 23:59:58.578 -04:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[urlImagen], [p].[categoria], [p].[nombre], [p].[precio]
+FROM [Productos] AS [p]
+2020-12-15 23:59:58.579 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:59:58.579 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:59:58.579 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:59:58.580 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:59:58.580 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:59:58.580 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:59:58.580 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:59:58.581 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:59:58.581 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:59:58.581 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:59:58.581 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:59:58.581 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:59:58.581 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:59:58.582 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:59:58.582 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:59:58.582 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:59:58.582 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:59:58.582 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:59:58.582 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:59:58.583 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:59:58.583 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:59:58.583 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:59:58.583 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:59:58.583 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:59:58.583 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:59:58.583 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:59:58.584 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:59:58.584 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:59:58.584 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:59:58.584 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:59:58.584 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:59:58.584 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:59:58.585 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:59:58.585 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:59:58.585 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:59:58.585 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:59:58.585 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:59:58.585 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:59:58.586 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:59:58.586 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:59:58.586 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:59:58.586 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:59:58.586 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:59:58.586 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:59:58.586 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:59:58.587 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:59:58.587 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:59:58.587 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-15 23:59:58.587 -04:00 [DBG] A data reader was disposed.
+2020-12-15 23:59:58.587 -04:00 [DBG] Closing connection to database 'TiendaVentas' on server 'LAPTOP-GPA\SQLEXPRESS'.
+2020-12-15 23:59:58.588 -04:00 [DBG] Closed connection to database 'TiendaVentas' on server 'LAPTOP-GPA\SQLEXPRESS'.
+2020-12-15 23:59:58.589 -04:00 [INF] Executed action method Tienda.Ventas.WebApp.Controllers.ProductosController.GetProductos (Tienda.Ventas.WebApp), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 30.031100000000002ms.
+2020-12-15 23:59:58.595 -04:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-15 23:59:58.595 -04:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-15 23:59:58.596 -04:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-15 23:59:58.596 -04:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-15 23:59:58.596 -04:00 [VRB] Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-15 23:59:58.596 -04:00 [VRB] Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-15 23:59:58.597 -04:00 [VRB] Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2020-12-15 23:59:58.597 -04:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2020-12-15 23:59:58.597 -04:00 [DBG] No information found on request to perform content negotiation.
+2020-12-15 23:59:58.597 -04:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2020-12-15 23:59:58.597 -04:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2020-12-15 23:59:58.598 -04:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2020-12-15 23:59:58.598 -04:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tienda.Ventas.Applicacion.DTO.ProductoDTO, Tienda.Ventas.Applicacion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-12-15 23:59:58.600 -04:00 [VRB] After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2020-12-15 23:59:58.600 -04:00 [VRB] Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-15 23:59:58.600 -04:00 [VRB] Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-15 23:59:58.600 -04:00 [INF] Executed action Tienda.Ventas.WebApp.Controllers.ProductosController.GetProductos (Tienda.Ventas.WebApp) in 42.2721ms
+2020-12-15 23:59:58.600 -04:00 [INF] Executed endpoint 'Tienda.Ventas.WebApp.Controllers.ProductosController.GetProductos (Tienda.Ventas.WebApp)'
+2020-12-15 23:59:58.601 -04:00 [INF] HTTP GET /api/productos responded 200 in 49.5596 ms
+2020-12-15 23:59:58.601 -04:00 [DBG] 'ApplicationDbContext' disposed.
+2020-12-15 23:59:58.601 -04:00 [INF] Request finished in 59.159200000000006ms 200 application/json; charset=utf-8
+2020-12-16 00:00:18.902 -04:00 [INF] Request starting HTTP/2.0 OPTIONS https://localhost:44388/api/productos  
+2020-12-16 00:00:18.904 -04:00 [VRB] All hosts are allowed.
+2020-12-16 00:00:18.909 -04:00 [DBG] OPTIONS requests are not supported
+2020-12-16 00:00:18.910 -04:00 [DBG] 1 candidate(s) found for the request path '/api/productos'
+2020-12-16 00:00:18.910 -04:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
+2020-12-16 00:00:18.911 -04:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2020-12-16 00:00:18.912 -04:00 [INF] CORS policy execution successful.
+2020-12-16 00:00:18.912 -04:00 [DBG] The request is a preflight request.
+2020-12-16 00:00:18.913 -04:00 [INF] HTTP OPTIONS /api/productos responded 204 in 3.0436 ms
+2020-12-16 00:00:18.914 -04:00 [INF] Request finished in 12.3482ms 204 
+2020-12-16 00:00:18.915 -04:00 [DBG] Connection ID "18230571306091282473" disconnecting.
+2020-12-16 00:00:18.920 -04:00 [INF] Request starting HTTP/2.0 GET https://localhost:44388/api/productos application/json 
+2020-12-16 00:00:18.921 -04:00 [VRB] All hosts are allowed.
+2020-12-16 00:00:18.921 -04:00 [DBG] The request path /api/productos does not match a supported file type
+2020-12-16 00:00:18.922 -04:00 [DBG] 1 candidate(s) found for the request path '/api/productos'
+2020-12-16 00:00:18.923 -04:00 [DBG] Endpoint 'Tienda.Ventas.WebApp.Controllers.ProductosController.GetProductos (Tienda.Ventas.WebApp)' with route pattern 'api/Productos' is valid for the request path '/api/productos'
+2020-12-16 00:00:18.923 -04:00 [DBG] Request matched endpoint 'Tienda.Ventas.WebApp.Controllers.ProductosController.GetProductos (Tienda.Ventas.WebApp)'
+2020-12-16 00:00:18.924 -04:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2020-12-16 00:00:18.924 -04:00 [INF] CORS policy execution successful.
+2020-12-16 00:00:18.925 -04:00 [INF] Executing endpoint 'Tienda.Ventas.WebApp.Controllers.ProductosController.GetProductos (Tienda.Ventas.WebApp)'
+2020-12-16 00:00:18.925 -04:00 [INF] Route matched with {action = "GetProductos", controller = "Productos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProductos() on controller Tienda.Ventas.WebApp.Controllers.ProductosController (Tienda.Ventas.WebApp).
+2020-12-16 00:00:18.926 -04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-12-16 00:00:18.926 -04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2020-12-16 00:00:18.926 -04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-12-16 00:00:18.927 -04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-12-16 00:00:18.928 -04:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-12-16 00:00:18.928 -04:00 [DBG] Executing controller factory for controller Tienda.Ventas.WebApp.Controllers.ProductosController (Tienda.Ventas.WebApp)
+2020-12-16 00:00:18.929 -04:00 [DBG] Executed controller factory for controller Tienda.Ventas.WebApp.Controllers.ProductosController (Tienda.Ventas.WebApp)
+2020-12-16 00:00:18.929 -04:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-16 00:00:18.930 -04:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-16 00:00:18.930 -04:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-16 00:00:18.930 -04:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-16 00:00:18.930 -04:00 [INF] Executing action method Tienda.Ventas.WebApp.Controllers.ProductosController.GetProductos (Tienda.Ventas.WebApp) - Validation state: "Valid"
+2020-12-16 00:00:18.931 -04:00 [INF] Obteniendo productos...
+2020-12-16 00:00:18.936 -04:00 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=Tienda.Ventas.Infraestructura, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2020-12-16 00:00:18.937 -04:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2020-12-16 00:00:18.937 -04:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2020-12-16 00:00:18.938 -04:00 [DBG] Opening connection to database 'TiendaVentas' on server 'LAPTOP-GPA\SQLEXPRESS'.
+2020-12-16 00:00:18.938 -04:00 [DBG] Opened connection to database 'TiendaVentas' on server 'LAPTOP-GPA\SQLEXPRESS'.
+2020-12-16 00:00:18.939 -04:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[urlImagen], [p].[categoria], [p].[nombre], [p].[precio]
+FROM [Productos] AS [p]
+2020-12-16 00:00:18.951 -04:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[urlImagen], [p].[categoria], [p].[nombre], [p].[precio]
+FROM [Productos] AS [p]
+2020-12-16 00:00:18.953 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:18.954 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:18.956 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:18.957 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:18.958 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:18.959 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:18.959 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:18.960 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:18.961 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:18.962 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:18.963 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:18.964 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:18.967 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:18.968 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:18.970 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:18.971 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:18.972 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:18.972 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:18.973 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:18.973 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:18.974 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:18.975 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:18.975 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:18.976 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:18.976 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:18.977 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:18.977 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:18.978 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:18.978 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:18.979 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:18.979 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:18.979 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:18.980 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:18.980 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:18.981 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:18.981 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:18.981 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:18.982 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:18.982 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:18.982 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:18.982 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:18.982 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:18.983 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:18.983 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:18.983 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:18.983 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:18.983 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:18.984 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:18.984 -04:00 [DBG] A data reader was disposed.
+2020-12-16 00:00:18.984 -04:00 [DBG] Closing connection to database 'TiendaVentas' on server 'LAPTOP-GPA\SQLEXPRESS'.
+2020-12-16 00:00:18.985 -04:00 [DBG] Closed connection to database 'TiendaVentas' on server 'LAPTOP-GPA\SQLEXPRESS'.
+2020-12-16 00:00:18.992 -04:00 [INF] Executed action method Tienda.Ventas.WebApp.Controllers.ProductosController.GetProductos (Tienda.Ventas.WebApp), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 60.9241ms.
+2020-12-16 00:00:18.992 -04:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-16 00:00:18.992 -04:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-16 00:00:18.992 -04:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-16 00:00:18.993 -04:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-16 00:00:18.993 -04:00 [VRB] Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-16 00:00:18.993 -04:00 [VRB] Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-16 00:00:18.993 -04:00 [VRB] Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2020-12-16 00:00:18.994 -04:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2020-12-16 00:00:18.994 -04:00 [DBG] No information found on request to perform content negotiation.
+2020-12-16 00:00:18.995 -04:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2020-12-16 00:00:18.995 -04:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2020-12-16 00:00:18.995 -04:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2020-12-16 00:00:18.995 -04:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tienda.Ventas.Applicacion.DTO.ProductoDTO, Tienda.Ventas.Applicacion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-12-16 00:00:19.004 -04:00 [VRB] After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2020-12-16 00:00:19.004 -04:00 [VRB] Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-16 00:00:19.004 -04:00 [VRB] Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-16 00:00:19.004 -04:00 [INF] Executed action Tienda.Ventas.WebApp.Controllers.ProductosController.GetProductos (Tienda.Ventas.WebApp) in 76.67450000000001ms
+2020-12-16 00:00:19.005 -04:00 [INF] Executed endpoint 'Tienda.Ventas.WebApp.Controllers.ProductosController.GetProductos (Tienda.Ventas.WebApp)'
+2020-12-16 00:00:19.005 -04:00 [INF] HTTP GET /api/productos responded 200 in 83.2733 ms
+2020-12-16 00:00:19.005 -04:00 [DBG] 'ApplicationDbContext' disposed.
+2020-12-16 00:00:19.005 -04:00 [INF] Request finished in 85.5532ms 200 application/json; charset=utf-8
+2020-12-16 00:00:26.371 -04:00 [INF] Request starting HTTP/2.0 OPTIONS https://localhost:44388/api/productos  
+2020-12-16 00:00:26.371 -04:00 [VRB] All hosts are allowed.
+2020-12-16 00:00:26.371 -04:00 [DBG] OPTIONS requests are not supported
+2020-12-16 00:00:26.372 -04:00 [DBG] 1 candidate(s) found for the request path '/api/productos'
+2020-12-16 00:00:26.372 -04:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
+2020-12-16 00:00:26.375 -04:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2020-12-16 00:00:26.375 -04:00 [INF] CORS policy execution successful.
+2020-12-16 00:00:26.376 -04:00 [DBG] The request is a preflight request.
+2020-12-16 00:00:26.376 -04:00 [INF] HTTP OPTIONS /api/productos responded 204 in 4.3425 ms
+2020-12-16 00:00:26.376 -04:00 [DBG] Connection ID "18374686511347007541" disconnecting.
+2020-12-16 00:00:26.376 -04:00 [INF] Request finished in 5.820600000000001ms 204 
+2020-12-16 00:00:26.385 -04:00 [INF] Request starting HTTP/2.0 GET https://localhost:44388/api/productos application/json 
+2020-12-16 00:00:26.386 -04:00 [VRB] All hosts are allowed.
+2020-12-16 00:00:26.386 -04:00 [DBG] The request path /api/productos does not match a supported file type
+2020-12-16 00:00:26.386 -04:00 [DBG] 1 candidate(s) found for the request path '/api/productos'
+2020-12-16 00:00:26.386 -04:00 [DBG] Endpoint 'Tienda.Ventas.WebApp.Controllers.ProductosController.GetProductos (Tienda.Ventas.WebApp)' with route pattern 'api/Productos' is valid for the request path '/api/productos'
+2020-12-16 00:00:26.386 -04:00 [DBG] Request matched endpoint 'Tienda.Ventas.WebApp.Controllers.ProductosController.GetProductos (Tienda.Ventas.WebApp)'
+2020-12-16 00:00:26.386 -04:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2020-12-16 00:00:26.386 -04:00 [INF] CORS policy execution successful.
+2020-12-16 00:00:26.386 -04:00 [INF] Executing endpoint 'Tienda.Ventas.WebApp.Controllers.ProductosController.GetProductos (Tienda.Ventas.WebApp)'
+2020-12-16 00:00:26.387 -04:00 [INF] Route matched with {action = "GetProductos", controller = "Productos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProductos() on controller Tienda.Ventas.WebApp.Controllers.ProductosController (Tienda.Ventas.WebApp).
+2020-12-16 00:00:26.387 -04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-12-16 00:00:26.387 -04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2020-12-16 00:00:26.387 -04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-12-16 00:00:26.387 -04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-12-16 00:00:26.388 -04:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-12-16 00:00:26.388 -04:00 [DBG] Executing controller factory for controller Tienda.Ventas.WebApp.Controllers.ProductosController (Tienda.Ventas.WebApp)
+2020-12-16 00:00:26.388 -04:00 [DBG] Executed controller factory for controller Tienda.Ventas.WebApp.Controllers.ProductosController (Tienda.Ventas.WebApp)
+2020-12-16 00:00:26.388 -04:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-16 00:00:26.388 -04:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-16 00:00:26.388 -04:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-16 00:00:26.390 -04:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-16 00:00:26.391 -04:00 [INF] Executing action method Tienda.Ventas.WebApp.Controllers.ProductosController.GetProductos (Tienda.Ventas.WebApp) - Validation state: "Valid"
+2020-12-16 00:00:26.391 -04:00 [INF] Obteniendo productos...
+2020-12-16 00:00:26.402 -04:00 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=Tienda.Ventas.Infraestructura, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2020-12-16 00:00:26.403 -04:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2020-12-16 00:00:26.404 -04:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2020-12-16 00:00:26.404 -04:00 [DBG] Opening connection to database 'TiendaVentas' on server 'LAPTOP-GPA\SQLEXPRESS'.
+2020-12-16 00:00:26.405 -04:00 [DBG] Opened connection to database 'TiendaVentas' on server 'LAPTOP-GPA\SQLEXPRESS'.
+2020-12-16 00:00:26.405 -04:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[urlImagen], [p].[categoria], [p].[nombre], [p].[precio]
+FROM [Productos] AS [p]
+2020-12-16 00:00:26.418 -04:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[urlImagen], [p].[categoria], [p].[nombre], [p].[precio]
+FROM [Productos] AS [p]
+2020-12-16 00:00:26.418 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:26.419 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:26.419 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:26.419 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:26.419 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:26.420 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:26.420 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:26.420 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:26.420 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:26.420 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:26.420 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:26.420 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:26.420 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:26.420 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:26.421 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:26.421 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:26.421 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:26.421 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:26.421 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:26.421 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:26.421 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:26.421 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:26.421 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:26.422 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:26.422 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:26.422 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:26.422 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:26.422 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:26.422 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:26.422 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:26.422 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:26.422 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:26.423 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:26.423 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:26.423 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:26.423 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:26.423 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:26.423 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:26.423 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:26.423 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:26.424 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:26.424 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:26.424 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:26.424 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:26.425 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:26.425 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:26.425 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:26.425 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:26.425 -04:00 [DBG] A data reader was disposed.
+2020-12-16 00:00:26.426 -04:00 [DBG] Closing connection to database 'TiendaVentas' on server 'LAPTOP-GPA\SQLEXPRESS'.
+2020-12-16 00:00:26.426 -04:00 [DBG] Closed connection to database 'TiendaVentas' on server 'LAPTOP-GPA\SQLEXPRESS'.
+2020-12-16 00:00:26.426 -04:00 [INF] Executed action method Tienda.Ventas.WebApp.Controllers.ProductosController.GetProductos (Tienda.Ventas.WebApp), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 35.5357ms.
+2020-12-16 00:00:26.427 -04:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-16 00:00:26.427 -04:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-16 00:00:26.427 -04:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-16 00:00:26.427 -04:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-16 00:00:26.427 -04:00 [VRB] Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-16 00:00:26.427 -04:00 [VRB] Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-16 00:00:26.427 -04:00 [VRB] Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2020-12-16 00:00:26.427 -04:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2020-12-16 00:00:26.428 -04:00 [DBG] No information found on request to perform content negotiation.
+2020-12-16 00:00:26.428 -04:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2020-12-16 00:00:26.428 -04:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2020-12-16 00:00:26.428 -04:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2020-12-16 00:00:26.428 -04:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tienda.Ventas.Applicacion.DTO.ProductoDTO, Tienda.Ventas.Applicacion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-12-16 00:00:26.429 -04:00 [VRB] After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2020-12-16 00:00:26.430 -04:00 [VRB] Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-16 00:00:26.430 -04:00 [VRB] Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-16 00:00:26.430 -04:00 [INF] Executed action Tienda.Ventas.WebApp.Controllers.ProductosController.GetProductos (Tienda.Ventas.WebApp) in 42.2628ms
+2020-12-16 00:00:26.430 -04:00 [INF] Executed endpoint 'Tienda.Ventas.WebApp.Controllers.ProductosController.GetProductos (Tienda.Ventas.WebApp)'
+2020-12-16 00:00:26.430 -04:00 [INF] HTTP GET /api/productos responded 200 in 44.5287 ms
+2020-12-16 00:00:26.430 -04:00 [DBG] 'ApplicationDbContext' disposed.
+2020-12-16 00:00:26.431 -04:00 [INF] Request finished in 45.220400000000005ms 200 application/json; charset=utf-8
+2020-12-16 00:00:52.401 -04:00 [INF] Request starting HTTP/2.0 OPTIONS https://localhost:44388/api/ventas  
+2020-12-16 00:00:52.401 -04:00 [VRB] All hosts are allowed.
+2020-12-16 00:00:52.401 -04:00 [DBG] OPTIONS requests are not supported
+2020-12-16 00:00:52.404 -04:00 [DBG] 1 candidate(s) found for the request path '/api/ventas'
+2020-12-16 00:00:52.404 -04:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
+2020-12-16 00:00:52.405 -04:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2020-12-16 00:00:52.405 -04:00 [INF] CORS policy execution successful.
+2020-12-16 00:00:52.405 -04:00 [DBG] The request is a preflight request.
+2020-12-16 00:00:52.405 -04:00 [INF] HTTP OPTIONS /api/ventas responded 204 in 1.1545 ms
+2020-12-16 00:00:52.405 -04:00 [INF] Request finished in 5.2706ms 204 
+2020-12-16 00:00:52.405 -04:00 [DBG] Connection ID "18374686507052040342" disconnecting.
+2020-12-16 00:00:52.408 -04:00 [INF] Request starting HTTP/2.0 POST https://localhost:44388/api/ventas application/json 342
+2020-12-16 00:00:52.408 -04:00 [VRB] All hosts are allowed.
+2020-12-16 00:00:52.408 -04:00 [DBG] POST requests are not supported
+2020-12-16 00:00:52.408 -04:00 [DBG] 1 candidate(s) found for the request path '/api/ventas'
+2020-12-16 00:00:52.408 -04:00 [DBG] Endpoint 'Tienda.Ventas.WebApp.Controllers.VentasController.InsertVenta (Tienda.Ventas.WebApp)' with route pattern 'api/Ventas' is valid for the request path '/api/ventas'
+2020-12-16 00:00:52.409 -04:00 [DBG] Request matched endpoint 'Tienda.Ventas.WebApp.Controllers.VentasController.InsertVenta (Tienda.Ventas.WebApp)'
+2020-12-16 00:00:52.409 -04:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2020-12-16 00:00:52.409 -04:00 [INF] CORS policy execution successful.
+2020-12-16 00:00:52.409 -04:00 [INF] Executing endpoint 'Tienda.Ventas.WebApp.Controllers.VentasController.InsertVenta (Tienda.Ventas.WebApp)'
+2020-12-16 00:00:52.410 -04:00 [INF] Route matched with {action = "InsertVenta", controller = "Ventas"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] InsertVenta(Tienda.Ventas.Applicacion.Features.Venta.InsertVenta.InsertVentaCommand) on controller Tienda.Ventas.WebApp.Controllers.VentasController (Tienda.Ventas.WebApp).
+2020-12-16 00:00:52.410 -04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-12-16 00:00:52.410 -04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2020-12-16 00:00:52.410 -04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-12-16 00:00:52.411 -04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-12-16 00:00:52.411 -04:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-12-16 00:00:52.411 -04:00 [DBG] Executing controller factory for controller Tienda.Ventas.WebApp.Controllers.VentasController (Tienda.Ventas.WebApp)
+2020-12-16 00:00:52.411 -04:00 [DBG] Executed controller factory for controller Tienda.Ventas.WebApp.Controllers.VentasController (Tienda.Ventas.WebApp)
+2020-12-16 00:00:52.413 -04:00 [DBG] Attempting to bind parameter 'insertVentaCommand' of type 'Tienda.Ventas.Applicacion.Features.Venta.InsertVenta.InsertVentaCommand' ...
+2020-12-16 00:00:52.413 -04:00 [DBG] Attempting to bind parameter 'insertVentaCommand' of type 'Tienda.Ventas.Applicacion.Features.Venta.InsertVenta.InsertVentaCommand' using the name '' in request data ...
+2020-12-16 00:00:52.414 -04:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2020-12-16 00:00:52.417 -04:00 [DBG] JSON input formatter succeeded, deserializing to type 'Tienda.Ventas.Applicacion.Features.Venta.InsertVenta.InsertVentaCommand'
+2020-12-16 00:00:52.417 -04:00 [DBG] Done attempting to bind parameter 'insertVentaCommand' of type 'Tienda.Ventas.Applicacion.Features.Venta.InsertVenta.InsertVentaCommand'.
+2020-12-16 00:00:52.417 -04:00 [DBG] Done attempting to bind parameter 'insertVentaCommand' of type 'Tienda.Ventas.Applicacion.Features.Venta.InsertVenta.InsertVentaCommand'.
+2020-12-16 00:00:52.417 -04:00 [DBG] Attempting to validate the bound parameter 'insertVentaCommand' of type 'Tienda.Ventas.Applicacion.Features.Venta.InsertVenta.InsertVentaCommand' ...
+2020-12-16 00:00:52.418 -04:00 [DBG] Done attempting to validate the bound parameter 'insertVentaCommand' of type 'Tienda.Ventas.Applicacion.Features.Venta.InsertVenta.InsertVentaCommand'.
+2020-12-16 00:00:52.418 -04:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-16 00:00:52.418 -04:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-16 00:00:52.418 -04:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-16 00:00:52.418 -04:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-16 00:00:52.418 -04:00 [INF] Executing action method Tienda.Ventas.WebApp.Controllers.VentasController.InsertVenta (Tienda.Ventas.WebApp) - Validation state: "Valid"
+2020-12-16 00:00:52.418 -04:00 [VRB] Executing action method Tienda.Ventas.WebApp.Controllers.VentasController.InsertVenta (Tienda.Ventas.WebApp) with arguments (["Tienda.Ventas.Applicacion.Features.Venta.InsertVenta.InsertVentaCommand"])
+2020-12-16 00:00:52.419 -04:00 [INF] Insertando venta con los parametros
+2020-12-16 00:00:52.429 -04:00 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=Tienda.Ventas.Infraestructura, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2020-12-16 00:00:52.433 -04:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2020-12-16 00:00:52.433 -04:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2020-12-16 00:00:52.433 -04:00 [DBG] Opening connection to database 'TiendaVentas' on server 'LAPTOP-GPA\SQLEXPRESS'.
+2020-12-16 00:00:52.433 -04:00 [DBG] Opened connection to database 'TiendaVentas' on server 'LAPTOP-GPA\SQLEXPRESS'.
+2020-12-16 00:00:52.433 -04:00 [DBG] Executing DbCommand [Parameters=[@__ventaDTO_Cliente_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[apellidos], [c].[email], [c].[nombres], [c].[password]
+FROM [Clientes] AS [c]
+WHERE [c].[Id] = @__ventaDTO_Cliente_Id_0
+2020-12-16 00:00:52.437 -04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__ventaDTO_Cliente_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[apellidos], [c].[email], [c].[nombres], [c].[password]
+FROM [Clientes] AS [c]
+WHERE [c].[Id] = @__ventaDTO_Cliente_Id_0
+2020-12-16 00:00:52.437 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Cliente' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.437 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'PersonNameValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.437 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'EmailValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.437 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'PersonNameValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.438 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'PasswordValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.438 -04:00 [DBG] A data reader was disposed.
+2020-12-16 00:00:52.438 -04:00 [DBG] Closing connection to database 'TiendaVentas' on server 'LAPTOP-GPA\SQLEXPRESS'.
+2020-12-16 00:00:52.438 -04:00 [DBG] Closed connection to database 'TiendaVentas' on server 'LAPTOP-GPA\SQLEXPRESS'.
+2020-12-16 00:00:52.438 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Venta' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.439 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Factura' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.439 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NITValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.439 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'RazonSocialValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.439 -04:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2020-12-16 00:00:52.439 -04:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2020-12-16 00:00:52.439 -04:00 [DBG] Opening connection to database 'TiendaVentas' on server 'LAPTOP-GPA\SQLEXPRESS'.
+2020-12-16 00:00:52.439 -04:00 [DBG] Opened connection to database 'TiendaVentas' on server 'LAPTOP-GPA\SQLEXPRESS'.
+2020-12-16 00:00:52.439 -04:00 [DBG] Executing DbCommand [Parameters=[@__detalle_Producto_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[urlImagen], [p].[categoria], [p].[nombre], [p].[precio]
+FROM [Productos] AS [p]
+WHERE [p].[Id] = @__detalle_Producto_Id_0
+2020-12-16 00:00:52.441 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[@__detalle_Producto_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[urlImagen], [p].[categoria], [p].[nombre], [p].[precio]
+FROM [Productos] AS [p]
+WHERE [p].[Id] = @__detalle_Producto_Id_0
+2020-12-16 00:00:52.441 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.441 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.441 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.441 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.441 -04:00 [DBG] A data reader was disposed.
+2020-12-16 00:00:52.441 -04:00 [DBG] Closing connection to database 'TiendaVentas' on server 'LAPTOP-GPA\SQLEXPRESS'.
+2020-12-16 00:00:52.441 -04:00 [DBG] Closed connection to database 'TiendaVentas' on server 'LAPTOP-GPA\SQLEXPRESS'.
+2020-12-16 00:00:52.441 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'DetalleVenta' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.441 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NumMayorACeroValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.441 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'DoubleMayorIgualACeroValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.442 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'DoubleMayorIgualACeroValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.442 -04:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2020-12-16 00:00:52.442 -04:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2020-12-16 00:00:52.442 -04:00 [DBG] Opening connection to database 'TiendaVentas' on server 'LAPTOP-GPA\SQLEXPRESS'.
+2020-12-16 00:00:52.442 -04:00 [DBG] Opened connection to database 'TiendaVentas' on server 'LAPTOP-GPA\SQLEXPRESS'.
+2020-12-16 00:00:52.442 -04:00 [DBG] Executing DbCommand [Parameters=[@__detalle_Producto_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[urlImagen], [p].[categoria], [p].[nombre], [p].[precio]
+FROM [Productos] AS [p]
+WHERE [p].[Id] = @__detalle_Producto_Id_0
+2020-12-16 00:00:52.443 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[@__detalle_Producto_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[urlImagen], [p].[categoria], [p].[nombre], [p].[precio]
+FROM [Productos] AS [p]
+WHERE [p].[Id] = @__detalle_Producto_Id_0
+2020-12-16 00:00:52.443 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.443 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.443 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.443 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.444 -04:00 [DBG] A data reader was disposed.
+2020-12-16 00:00:52.444 -04:00 [DBG] Closing connection to database 'TiendaVentas' on server 'LAPTOP-GPA\SQLEXPRESS'.
+2020-12-16 00:00:52.444 -04:00 [DBG] Closed connection to database 'TiendaVentas' on server 'LAPTOP-GPA\SQLEXPRESS'.
+2020-12-16 00:00:52.444 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'DetalleVenta' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.444 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NumMayorACeroValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.445 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'DoubleMayorIgualACeroValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.445 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'DoubleMayorIgualACeroValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.445 -04:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2020-12-16 00:00:52.445 -04:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2020-12-16 00:00:52.445 -04:00 [DBG] Opening connection to database 'TiendaVentas' on server 'LAPTOP-GPA\SQLEXPRESS'.
+2020-12-16 00:00:52.446 -04:00 [DBG] Opened connection to database 'TiendaVentas' on server 'LAPTOP-GPA\SQLEXPRESS'.
+2020-12-16 00:00:52.446 -04:00 [DBG] Executing DbCommand [Parameters=[@__detalle_Producto_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[urlImagen], [p].[categoria], [p].[nombre], [p].[precio]
+FROM [Productos] AS [p]
+WHERE [p].[Id] = @__detalle_Producto_Id_0
+2020-12-16 00:00:52.447 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[@__detalle_Producto_Id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[urlImagen], [p].[categoria], [p].[nombre], [p].[precio]
+FROM [Productos] AS [p]
+WHERE [p].[Id] = @__detalle_Producto_Id_0
+2020-12-16 00:00:52.447 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.447 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.447 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.447 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.447 -04:00 [DBG] A data reader was disposed.
+2020-12-16 00:00:52.448 -04:00 [DBG] Closing connection to database 'TiendaVentas' on server 'LAPTOP-GPA\SQLEXPRESS'.
+2020-12-16 00:00:52.448 -04:00 [DBG] Closed connection to database 'TiendaVentas' on server 'LAPTOP-GPA\SQLEXPRESS'.
+2020-12-16 00:00:52.448 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'DetalleVenta' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.448 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NumMayorACeroValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.448 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'DoubleMayorIgualACeroValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.448 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'DoubleMayorIgualACeroValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.448 -04:00 [DBG] SaveChanges starting for 'ApplicationDbContext'.
+2020-12-16 00:00:52.448 -04:00 [DBG] DetectChanges starting for 'ApplicationDbContext'.
+2020-12-16 00:00:52.449 -04:00 [DBG] DetectChanges completed for 'ApplicationDbContext'.
+2020-12-16 00:00:52.449 -04:00 [DBG] Opening connection to database 'TiendaVentas' on server 'LAPTOP-GPA\SQLEXPRESS'.
+2020-12-16 00:00:52.449 -04:00 [DBG] Opened connection to database 'TiendaVentas' on server 'LAPTOP-GPA\SQLEXPRESS'.
+2020-12-16 00:00:52.449 -04:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2020-12-16 00:00:52.449 -04:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2020-12-16 00:00:52.450 -04:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2020-12-16 00:00:52.450 -04:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2020-12-16 00:00:52.450 -04:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (DbType = Int32), @p3='?' (DbType = DateTime2), @p4='?' (DbType = DateTime2), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Ventas] ([Id], [ClienteId], [estado], [fechaAnulacion], [fechaCreacion], [fechaFinalizacion])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2020-12-16 00:00:52.452 -04:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (DbType = Int32), @p3='?' (DbType = DateTime2), @p4='?' (DbType = DateTime2), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Ventas] ([Id], [ClienteId], [estado], [fechaAnulacion], [fechaCreacion], [fechaFinalizacion])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2020-12-16 00:00:52.452 -04:00 [DBG] A data reader was disposed.
+2020-12-16 00:00:52.457 -04:00 [DBG] Executing 4 update commands as a batch.
+2020-12-16 00:00:52.461 -04:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2020-12-16 00:00:52.461 -04:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2020-12-16 00:00:52.461 -04:00 [DBG] Executing DbCommand [Parameters=[@p6='?' (DbType = Guid), @p7='?' (DbType = Guid), @p8='?' (DbType = Guid), @p9='?' (DbType = Double), @p10='?' (DbType = Double), @p11='?' (DbType = Int32), @p12='?' (DbType = Guid), @p13='?' (DbType = Guid), @p14='?' (DbType = Guid), @p15='?' (DbType = Double), @p16='?' (DbType = Double), @p17='?' (DbType = Int32), @p18='?' (DbType = Guid), @p19='?' (DbType = Guid), @p20='?' (DbType = Guid), @p21='?' (DbType = Double), @p22='?' (DbType = Double), @p23='?' (DbType = Int32), @p24='?' (DbType = Guid), @p25='?' (DbType = DateTime2), @p26='?' (DbType = Guid), @p27='?' (Size = 4000), @p28='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [DetalleVentas] ([Id], [ProductoId], [VentaId], [precio], [subtotal], [cantidad])
+VALUES (@p6, @p7, @p8, @p9, @p10, @p11),
+(@p12, @p13, @p14, @p15, @p16, @p17),
+(@p18, @p19, @p20, @p21, @p22, @p23);
+INSERT INTO [Facturas] ([Id], [FechaEmision], [VentaId], [nit], [razonSocial])
+VALUES (@p24, @p25, @p26, @p27, @p28);
+2020-12-16 00:00:52.558 -04:00 [INF] Executed DbCommand (96ms) [Parameters=[@p6='?' (DbType = Guid), @p7='?' (DbType = Guid), @p8='?' (DbType = Guid), @p9='?' (DbType = Double), @p10='?' (DbType = Double), @p11='?' (DbType = Int32), @p12='?' (DbType = Guid), @p13='?' (DbType = Guid), @p14='?' (DbType = Guid), @p15='?' (DbType = Double), @p16='?' (DbType = Double), @p17='?' (DbType = Int32), @p18='?' (DbType = Guid), @p19='?' (DbType = Guid), @p20='?' (DbType = Guid), @p21='?' (DbType = Double), @p22='?' (DbType = Double), @p23='?' (DbType = Int32), @p24='?' (DbType = Guid), @p25='?' (DbType = DateTime2), @p26='?' (DbType = Guid), @p27='?' (Size = 4000), @p28='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [DetalleVentas] ([Id], [ProductoId], [VentaId], [precio], [subtotal], [cantidad])
+VALUES (@p6, @p7, @p8, @p9, @p10, @p11),
+(@p12, @p13, @p14, @p15, @p16, @p17),
+(@p18, @p19, @p20, @p21, @p22, @p23);
+INSERT INTO [Facturas] ([Id], [FechaEmision], [VentaId], [nit], [razonSocial])
+VALUES (@p24, @p25, @p26, @p27, @p28);
+2020-12-16 00:00:52.558 -04:00 [DBG] A data reader was disposed.
+2020-12-16 00:00:52.558 -04:00 [DBG] Committing transaction.
+2020-12-16 00:00:52.559 -04:00 [DBG] Committed transaction.
+2020-12-16 00:00:52.559 -04:00 [DBG] Closing connection to database 'TiendaVentas' on server 'LAPTOP-GPA\SQLEXPRESS'.
+2020-12-16 00:00:52.559 -04:00 [DBG] Closed connection to database 'TiendaVentas' on server 'LAPTOP-GPA\SQLEXPRESS'.
+2020-12-16 00:00:52.559 -04:00 [DBG] Disposing transaction.
+2020-12-16 00:00:52.560 -04:00 [DBG] An entity of type 'Venta' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.560 -04:00 [DBG] An entity of type 'Factura' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.560 -04:00 [DBG] An entity of type 'NITValue' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.560 -04:00 [DBG] An entity of type 'RazonSocialValue' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.560 -04:00 [DBG] An entity of type 'DetalleVenta' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.560 -04:00 [DBG] An entity of type 'NumMayorACeroValue' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.561 -04:00 [DBG] An entity of type 'DetalleVenta' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.561 -04:00 [DBG] An entity of type 'NumMayorACeroValue' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.561 -04:00 [DBG] An entity of type 'DetalleVenta' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.561 -04:00 [DBG] An entity of type 'NumMayorACeroValue' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.561 -04:00 [DBG] An entity of type 'DoubleMayorIgualACeroValue' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.561 -04:00 [DBG] An entity of type 'DoubleMayorIgualACeroValue' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.561 -04:00 [DBG] An entity of type 'DoubleMayorIgualACeroValue' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.561 -04:00 [DBG] An entity of type 'DoubleMayorIgualACeroValue' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.561 -04:00 [DBG] An entity of type 'DoubleMayorIgualACeroValue' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.561 -04:00 [DBG] An entity of type 'DoubleMayorIgualACeroValue' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.561 -04:00 [DBG] SaveChanges completed for 'ApplicationDbContext' with 5 entities written to the database.
+2020-12-16 00:00:52.562 -04:00 [INF] Executed action method Tienda.Ventas.WebApp.Controllers.VentasController.InsertVenta (Tienda.Ventas.WebApp), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 143.2938ms.
+2020-12-16 00:00:52.562 -04:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-16 00:00:52.562 -04:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-16 00:00:52.562 -04:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-16 00:00:52.562 -04:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-16 00:00:52.562 -04:00 [VRB] Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-16 00:00:52.562 -04:00 [VRB] Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-16 00:00:52.563 -04:00 [VRB] Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2020-12-16 00:00:52.563 -04:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2020-12-16 00:00:52.563 -04:00 [DBG] No information found on request to perform content negotiation.
+2020-12-16 00:00:52.563 -04:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2020-12-16 00:00:52.563 -04:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2020-12-16 00:00:52.563 -04:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2020-12-16 00:00:52.563 -04:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2020-12-16 00:00:52.564 -04:00 [VRB] After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2020-12-16 00:00:52.564 -04:00 [VRB] Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-16 00:00:52.564 -04:00 [VRB] Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-16 00:00:52.565 -04:00 [INF] Executed action Tienda.Ventas.WebApp.Controllers.VentasController.InsertVenta (Tienda.Ventas.WebApp) in 153.7956ms
+2020-12-16 00:00:52.565 -04:00 [INF] Executed endpoint 'Tienda.Ventas.WebApp.Controllers.VentasController.InsertVenta (Tienda.Ventas.WebApp)'
+2020-12-16 00:00:52.565 -04:00 [INF] HTTP POST /api/ventas responded 200 in 156.4829 ms
+2020-12-16 00:00:52.565 -04:00 [DBG] 'ApplicationDbContext' disposed.
+2020-12-16 00:00:52.565 -04:00 [INF] Request finished in 157.5135ms 200 text/plain; charset=utf-8
+2020-12-16 00:00:52.606 -04:00 [INF] Request starting HTTP/2.0 OPTIONS https://localhost:44388/api/productos  
+2020-12-16 00:00:52.606 -04:00 [VRB] All hosts are allowed.
+2020-12-16 00:00:52.606 -04:00 [DBG] OPTIONS requests are not supported
+2020-12-16 00:00:52.607 -04:00 [DBG] 1 candidate(s) found for the request path '/api/productos'
+2020-12-16 00:00:52.607 -04:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
+2020-12-16 00:00:52.607 -04:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2020-12-16 00:00:52.607 -04:00 [INF] CORS policy execution successful.
+2020-12-16 00:00:52.607 -04:00 [DBG] The request is a preflight request.
+2020-12-16 00:00:52.607 -04:00 [INF] HTTP OPTIONS /api/productos responded 204 in 0.9515 ms
+2020-12-16 00:00:52.608 -04:00 [INF] Request finished in 1.6324ms 204 
+2020-12-16 00:00:52.616 -04:00 [INF] Request starting HTTP/2.0 GET https://localhost:44388/api/productos application/json 
+2020-12-16 00:00:52.616 -04:00 [VRB] All hosts are allowed.
+2020-12-16 00:00:52.617 -04:00 [DBG] The request path /api/productos does not match a supported file type
+2020-12-16 00:00:52.617 -04:00 [DBG] 1 candidate(s) found for the request path '/api/productos'
+2020-12-16 00:00:52.617 -04:00 [DBG] Endpoint 'Tienda.Ventas.WebApp.Controllers.ProductosController.GetProductos (Tienda.Ventas.WebApp)' with route pattern 'api/Productos' is valid for the request path '/api/productos'
+2020-12-16 00:00:52.618 -04:00 [DBG] Request matched endpoint 'Tienda.Ventas.WebApp.Controllers.ProductosController.GetProductos (Tienda.Ventas.WebApp)'
+2020-12-16 00:00:52.618 -04:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2020-12-16 00:00:52.618 -04:00 [INF] CORS policy execution successful.
+2020-12-16 00:00:52.618 -04:00 [INF] Executing endpoint 'Tienda.Ventas.WebApp.Controllers.ProductosController.GetProductos (Tienda.Ventas.WebApp)'
+2020-12-16 00:00:52.618 -04:00 [INF] Route matched with {action = "GetProductos", controller = "Productos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProductos() on controller Tienda.Ventas.WebApp.Controllers.ProductosController (Tienda.Ventas.WebApp).
+2020-12-16 00:00:52.618 -04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-12-16 00:00:52.618 -04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2020-12-16 00:00:52.618 -04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-12-16 00:00:52.618 -04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-12-16 00:00:52.618 -04:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-12-16 00:00:52.619 -04:00 [DBG] Executing controller factory for controller Tienda.Ventas.WebApp.Controllers.ProductosController (Tienda.Ventas.WebApp)
+2020-12-16 00:00:52.619 -04:00 [DBG] Executed controller factory for controller Tienda.Ventas.WebApp.Controllers.ProductosController (Tienda.Ventas.WebApp)
+2020-12-16 00:00:52.619 -04:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-16 00:00:52.619 -04:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-16 00:00:52.620 -04:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-16 00:00:52.620 -04:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-16 00:00:52.620 -04:00 [INF] Executing action method Tienda.Ventas.WebApp.Controllers.ProductosController.GetProductos (Tienda.Ventas.WebApp) - Validation state: "Valid"
+2020-12-16 00:00:52.620 -04:00 [INF] Obteniendo productos...
+2020-12-16 00:00:52.621 -04:00 [INF] Entity Framework Core 5.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=Tienda.Ventas.Infraestructura, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+2020-12-16 00:00:52.621 -04:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2020-12-16 00:00:52.622 -04:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2020-12-16 00:00:52.622 -04:00 [DBG] Opening connection to database 'TiendaVentas' on server 'LAPTOP-GPA\SQLEXPRESS'.
+2020-12-16 00:00:52.622 -04:00 [DBG] Opened connection to database 'TiendaVentas' on server 'LAPTOP-GPA\SQLEXPRESS'.
+2020-12-16 00:00:52.622 -04:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[urlImagen], [p].[categoria], [p].[nombre], [p].[precio]
+FROM [Productos] AS [p]
+2020-12-16 00:00:52.627 -04:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[urlImagen], [p].[categoria], [p].[nombre], [p].[precio]
+FROM [Productos] AS [p]
+2020-12-16 00:00:52.629 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.630 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.634 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.635 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.635 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.635 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.635 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.636 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.636 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.636 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.636 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.636 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.636 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.636 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.636 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.636 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.636 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.636 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.637 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.637 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.637 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.637 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.637 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.637 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.637 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.637 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.637 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.637 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.637 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.637 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.637 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.638 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.638 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.638 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.638 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.638 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.638 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.638 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.638 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.638 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.638 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.638 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.638 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.638 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.638 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'Producto' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.638 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'NombreCategoriaValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.638 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoNombreValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.638 -04:00 [DBG] Context 'ApplicationDbContext' started tracking 'ProductoPrecioValue' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-12-16 00:00:52.638 -04:00 [DBG] A data reader was disposed.
+2020-12-16 00:00:52.638 -04:00 [DBG] Closing connection to database 'TiendaVentas' on server 'LAPTOP-GPA\SQLEXPRESS'.
+2020-12-16 00:00:52.638 -04:00 [DBG] Closed connection to database 'TiendaVentas' on server 'LAPTOP-GPA\SQLEXPRESS'.
+2020-12-16 00:00:52.639 -04:00 [INF] Executed action method Tienda.Ventas.WebApp.Controllers.ProductosController.GetProductos (Tienda.Ventas.WebApp), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 19.0048ms.
+2020-12-16 00:00:52.641 -04:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-16 00:00:52.641 -04:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-16 00:00:52.648 -04:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-16 00:00:52.648 -04:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-16 00:00:52.648 -04:00 [VRB] Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-16 00:00:52.648 -04:00 [VRB] Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-16 00:00:52.648 -04:00 [VRB] Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2020-12-16 00:00:52.649 -04:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2020-12-16 00:00:52.649 -04:00 [DBG] No information found on request to perform content negotiation.
+2020-12-16 00:00:52.649 -04:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2020-12-16 00:00:52.649 -04:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2020-12-16 00:00:52.649 -04:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2020-12-16 00:00:52.649 -04:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Tienda.Ventas.Applicacion.DTO.ProductoDTO, Tienda.Ventas.Applicacion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-12-16 00:00:52.650 -04:00 [VRB] After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2020-12-16 00:00:52.650 -04:00 [VRB] Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-16 00:00:52.650 -04:00 [VRB] Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-16 00:00:52.650 -04:00 [INF] Executed action Tienda.Ventas.WebApp.Controllers.ProductosController.GetProductos (Tienda.Ventas.WebApp) in 31.155700000000003ms
+2020-12-16 00:00:52.650 -04:00 [INF] Executed endpoint 'Tienda.Ventas.WebApp.Controllers.ProductosController.GetProductos (Tienda.Ventas.WebApp)'
+2020-12-16 00:00:52.650 -04:00 [INF] HTTP GET /api/productos responded 200 in 33.0660 ms
+2020-12-16 00:00:52.650 -04:00 [DBG] 'ApplicationDbContext' disposed.
+2020-12-16 00:00:52.650 -04:00 [INF] Request finished in 34.9737ms 200 application/json; charset=utf-8

@@ -1,0 +1,21 @@
+<h2 mat-dialog-title align="center">Realizar compra</h2>
+<mat-dialog-content class="mat-typography">
+    <form action="" [formGroup]="formPagar">
+        <p style="text-align: center;">
+            <mat-form-field class="input-login" appearance="outline">
+                <mat-label>Razón social</mat-label>
+                <input class="input-login" matInput name="razonSocial" formControlName="razonSocial">
+            </mat-form-field>
+        </p>
+        <p style="text-align: center;">
+            <mat-form-field class="input-login" appearance="outline">
+                <mat-label>NIT</mat-label>
+                <input class="input-login" type="number" matInput name="nit" formControlName="nit">
+            </mat-form-field>
+        </p>
+    </form>
+</mat-dialog-content>
+<mat-dialog-actions align="center">
+  <button mat-button mat-dialog-close>Cancelar</button>
+  <button mat-flat-button color="primary" type="button" (click)="pagar()">Pagar</button>
+</mat-dialog-actions>
